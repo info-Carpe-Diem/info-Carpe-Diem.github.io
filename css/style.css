@@ -1,0 +1,257 @@
+/* styling nav bar */
+body {
+  background-color: #ffffff;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #343a40;
+}
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+header {
+  /* background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
+    url("../images/301052631_113227574835227_380292627104081345_n.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 700px; */
+}
+.header-block {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: #066448;
+  margin-bottom: 50px;
+}
+.nav-block {
+  width: 1000px;
+  padding-left: 200px;
+}
+.nav-ul {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.header-title {
+  color: white;
+  font-size: 22px;
+  width: 130px;
+}
+
+.logo-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  /* margin-right: 200px; */
+  margin-left: 20px;
+}
+
+.nav-a {
+  font-size: 22px;
+  /* color: rgb(228, 228, 156); */
+  color: #eef1dd;
+  font-weight: bolder;
+  padding: 15px;
+  letter-spacing: 1px;
+}
+.active {
+  border-right: 1px solid rgb(213, 213, 26);
+  border-bottom: 1px solid rgb(213, 213, 26);
+  border-bottom-right-radius: 12px;
+}
+.nav-a:hover {
+  /* font-weight: lighter; */
+  transition: 0.5s;
+  border-right: 1px solid rgb(213, 213, 26);
+  border-bottom: 1px solid rgb(213, 213, 26);
+  border-bottom-right-radius: 12px;
+}
+.nav-li {
+  /* padding: 20px 40px; */
+}
+
+/* styleing section-1 */
+.section-1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 80px;
+  margin-top: 64px;
+}
+
+.section-1-text-box {
+  align-self: center;
+}
+
+h1 {
+  margin-bottom: 24px;
+  font-size: 44px;
+  line-height: 1.1;
+  letter-spacing: -1px;
+}
+
+.section-1-text {
+  margin-bottom: 24px;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+img {
+  /* width: 1%; */
+  height: 500px;
+  border-radius: 12px;
+}
+
+/* styleing footer */
+
+.footer-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px 40px 30px 40px;
+  background-color: #1f232b;
+  /* position: fixed; */
+  bottom: 0;
+}
+
+.bottom-footer {
+  width: 100%;
+  height: 20px;
+  text-align: center;
+  background-color: #066448;
+  padding: 5px;
+  /* margin-top: 10px; */
+  /* position: fixed; */
+  bottom: 0;
+  overflow: hidden;
+}
+
+.ftr-bottom-text {
+  color: #eef1dd;
+  font-size: 12px;
+}
+
+.icons {
+  display: flex;
+  gap: 15px;
+}
+
+.ftr-icon {
+  color: #eef1dd;
+  font-size: 25px;
+}
+
+.ftr-icon-block {
+  background-color: #066448;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-p {
+  color: #eef1dd;
+  font-size: 12px;
+  font-weight: lighter;
+}
+
+.ftr-title {
+  color: #eef1dd;
+  font-size: 18px;
+  margin-bottom: 15px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.contact-title {
+  padding: 5px;
+  border-bottom: 2px solid #066448;
+}
+
+/* .ftr-logo {
+  width: 145px;
+  height: 100px;
+} */
+.logo-footer {
+  width: 120x;
+  height: 120px;
+}
+.footer-title {
+  font-size: 24px;
+  letter-spacing: 5px;
+  color: #eef1dd;
+}
+
+.contact-word {
+  color: #eef1dd;
+  font-size: 12px;
+}
+
+.contact-icons {
+  display: flex;
+  gap: 14px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.fa-regular {
+  color: #066448;
+}
+
+.fa-phone {
+  color: #066448;
+}
+
+.fa-location-dot {
+  color: #066448;
+}
+
+.first-section {
+  width: 100%;
+}
+
+section {
+  flex-grow: 1;
+}
+
+/* ეს სტილი გადასატანი მაქვს საკონტაქტო გვერდძე */
+.contact-section {
+  display: flex;
+  justify-content: space-between;
+}
+.contact-box {
+  box-shadow: 0px 20px 30px 0 rgba(0, 0, 0, 0.07);
+  border-radius: 12px;
+  background-color: #eef1dd;
+  width: 350px;
+  padding: 20px;
+  margin-bottom: 100px;
+  /* ეს მაერჯინი მერე წასაშლელი იქნება
+   */
+}
+.contact-info-title {
+  margin-bottom: 24px;
+  font-size: 22px;
+  text-align: center;
+  font-weight: bold;
+}
+.adress-ul {
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+.adrees-link {
+  font-size: 18px;
+  color: #343a40;
+}
