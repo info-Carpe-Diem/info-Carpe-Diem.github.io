@@ -255,3 +255,43 @@ section {
   font-size: 18px;
   color: #343a40;
 }
+
+/* service page styleing */
+.services {
+  background-color: #087f5b;
+  box-shadow: 0px 20px 30px 0 rgba(0, 0, 0, 0.07);
+  color: #343a40;
+  padding: 24px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.service-box {
+  /* grid-column: 2 / -1;
+  align-self: center; */
+  width: 350px;
+  background-color: #eef1dd;
+  box-shadow: 0px 20px 30px 0 rgba(0, 0, 0, 0.07);
+  border-radius: 12px;
+  padding: 20px;
+}
+.service-img {
+  width: 350px;
+  height: 350px;
+}
+.service-title {
+  margin-bottom: 24px;
+  font-size: 22px;
+  text-align: center;
+  font-weight: bold;
+}
+.service-li {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.fa-circle {
+  color: #066448;
+  margin-right: 5px;
+}
