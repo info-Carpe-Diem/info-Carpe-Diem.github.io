@@ -408,7 +408,7 @@ section {
 
 .btn {
   position: relative;
-  background-color: #066448;
+  background-color: #073914;
   max-width: 400px;
   width: 100%;
   height: 100%;
@@ -448,7 +448,6 @@ section {
 
 .btn:hover {
   color: rgb(187, 170, 14);
-  display: block !important;
 }
 
 .answer-text {
@@ -463,7 +462,7 @@ section {
   justify-content: center;
   height: 0;
   transition: 0.5s linear;
-  border: 1px solid #066448;
+  border: 1px solid #073914;
   border-radius: 0 0 9px 9px;
   text-align: center;
 }
@@ -564,6 +563,26 @@ span {
 }
 
 /* service-1 page */
+.registration-btn {
+  background-color: #eef1dd;
+  border-radius: 12px;
+  color: #073914;
+  border: 1px solid #073914;
+  opacity: 100%;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px;
+  width: 150px;
+  cursor: pointer;
+  transition: 0.3s linear;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-top: 20px;
+}
+.registration-btn:hover {
+  background-color: #073914;
+  color: #eef1dd;
+}
 .main-title {
   font-size: 24px;
   font-weight: bolder;
@@ -608,17 +627,36 @@ span {
   letter-spacing: 1px;
   margin-bottom: 15px;
   font-weight: bold;
+  margin-top: 15px;
 }
 .service1-ul1 {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .fa-circle-check {
   margin-right: 15px;
   color: #073914;
   margin-left: 30px;
+  font-size: smaller;
 }
 .fa-circle {
   margin-right: 15px;
   color: #073914;
+}
+
+/* ვტესტავ რაღაცას */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.a-service:hover .dropdown-content {
+  display: block;
+}
+.vai {
+  position: relative;
+  top: 0;
 }
