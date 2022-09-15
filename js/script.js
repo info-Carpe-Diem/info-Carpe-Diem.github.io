@@ -9,6 +9,6 @@ for (i = 0; i < accordeon.length; i++) {
 
 // slider
 
-let image = document.createElement("img");
-image.src = "..images/";
-document.querySelector(".container").appendChild(image);
+// let image = document.createElement("img");
+// image.src = "..images/";
+// document.querySelector(".container").appendChild(image);
