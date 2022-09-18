@@ -57,6 +57,7 @@
       </div>
     </header>
     <div class="container">
+      <div class="overlay"></div>
       <h2 class="question">რატომ "კარპე დიემ"?</h2>
       <p class="question-answer">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi
@@ -81,12 +82,13 @@
             alt="psychologist"
           />
 
-          <h2 class="person-name">ნინო უსენაშვილი</h2>
+          <h3 class="name">ნინო უსენაშვილი</h3>
           <h3 class="person-profession">კლინიკური ფსიქოლოგი</h3>
           <span></span>
           <p class="person-text">
             "რაც მოგივა დავითაო ყველა შენი თავითაო, პრი კურდღლის მადევარი
           </p>
+          <button class="person-name Uska">იხ. მეტი</button>
         </div>
 
         <div class="person">
@@ -95,12 +97,13 @@
             src="images/279563310_540949714217207_4094088807898975909_n-removebg-preview.png"
             alt="psychologist"
           />
-          <h2 class="person-name">ნინო უსენაშვილი</h2>
-          <h3 class="person-profession">კლინიკური ფსიქოლოგი</h3>
+          <h3 class="name">ნინო მჟავანაძე</h3>
+          <h3 class="person-profession">განათლების ფსიქოლოგი</h3>
           <span></span>
           <p class="person-text">
             "რაც მოგივა დავითაო ყველა შენი თავითაო, პრი კურდღლის მადევარი
           </p>
+          <button class="person-name Nino">იხ. მეტი</button>
         </div>
 
         <div class="person">
@@ -109,12 +112,13 @@
             src="images/299084712_1805862276421124_8646586162099327427_n.jpg"
             alt="psychologist"
           />
-          <h2 class="person-name">ნინო უსენაშვილი</h2>
-          <h3 class="person-profession">კლინიკური ფსიქოლოგი</h3>
+          <h3 class="name">სალომე ყურაშვილი</h3>
+          <h3 class="person-profession">კლინიკურის ფსიქოლოგი</h3>
           <span></span>
           <p class="person-text">
             "რაც მოგივა დავითაო ყველა შენი თავითაო, პრი კურდღლის მადევარი
           </p>
+          <button class="person-name Salome">იხ. მეტი</button>
         </div>
 
         <div class="person">
@@ -124,13 +128,60 @@
             alt="psychologist"
           />
 
-          <h2 class="person-name">ნინო უსენაშვილი</h2>
+          <h3 class="name">ლანა მურჯიკნელი</h3>
           <h3 class="person-profession">კლინიკური ფსიქოლოგი</h3>
           <span></span>
           <p class="person-text">
             "რაც მოგივა დავითაო ყველა შენი თავითაო, პრი კურდღლის მადევარი
           </p>
+          <button class="person-name Lana">იხ. მეტი</button>
         </div>
+      </div>
+
+      <!-- modal- windows -->
+
+      <div class="modal-window uska-modal">
+        <i class="fa-solid fa-x"></i>
+        <img
+          src="images/279563310_540949714217207_4094088807898975909_n-removebg-preview.png"
+          width="100px"
+          height="100px"
+        />
+        <p class="person-bio">
+          უსკა კაი ტიპია მას არ უნდა ქება დილით ადერ ადგება
+        </p>
+      </div>
+      <div class="modal-window nino-modal">
+        <i class="fa-solid fa-x"></i>
+        <img
+          src="images/279563310_540949714217207_4094088807898975909_n-removebg-preview.png"
+          width="100px"
+          height="100px"
+        />
+        <p class="person-bio">ნინო კაი ტიპი ამას არ უნდა ქება</p>
+      </div>
+      <div class="modal-window salome-modal">
+        <i class="fa-solid fa-x"></i>
+        <img
+          src="images/279563310_540949714217207_4094088807898975909_n-removebg-preview.png"
+          width="100px"
+          height="100px"
+        />
+        <p class="person-bio">სალო კაი ტიპია მას არ უნდა ქება</p>
+      </div>
+      <div class="modal-window lana-modal">
+        <i class="fa-solid fa-x"></i>
+        <img
+          src="images/279563310_540949714217207_4094088807898975909_n-removebg-preview.png"
+          width="100px"
+          height="100px"
+        />
+        <p class="person-bio">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, earum
+          quo. Vero natus mollitia, corporis eligendi vitae quasi, temporibus
+          quidem itaque incidunt porro minus. Rerum soluta impedit sint!
+          Dignissimos, temporibus?
+        </p>
       </div>
     </div>
 
@@ -199,5 +250,6 @@
         </h2>
       </div>
     </footer>
+    <script src="js/aboutus.js"></script>
   </body>
 </html>
