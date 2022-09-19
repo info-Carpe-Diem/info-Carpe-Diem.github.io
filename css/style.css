@@ -768,7 +768,14 @@ span {
   width: 500px;
   height: 500px;
   background-color: #eef1dd;
-  border: 2px solid #073914;
+  background: rgb(204, 246, 215);
+  background: linear-gradient(
+    0deg,
+    rgba(204, 246, 215, 1) 18%,
+    rgba(244, 249, 246, 1) 43%,
+    rgba(239, 247, 242, 1) 68%
+  );
+  border: 1px solid #073914;
   position: fixed;
   /* left: 0; */
   left: 50%;
@@ -777,7 +784,6 @@ span {
   border-radius: 12px;
   z-index: 900;
   display: none;
-  box-shadow: 5px 20px 30px 0px rgba(54, 57, 55, 0.368);
 }
 .uska-modal {
   display: none;
@@ -818,4 +824,81 @@ span {
   top: 0;
   left: 0;
   display: none;
+}
+.modal-window {
+  padding: 30px 15px;
+  box-shadow: 0px 1px 2px 0px #073914, 1px 2px 4px 0px #073914,
+    2px 4px 8px 0px #073914, 2px 4px 16px 0px #073914;
+}
+.image-box {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  /* justify-content: space-between; */
+}
+.modal-img {
+  border-radius: 9px;
+  object-fit: cover;
+  width: 130px;
+  height: 130px;
+  box-shadow: 0px 1px 2px 0px #073914, 1px 2px 4px 0px #073914,
+    2px 4px 8px 0px #073914, 2px 4px 16px 0px #073914;
+}
+
+.personal-ul {
+  margin-top: 30px;
+}
+.person-li {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #073914;
+  font-style: italic;
+}
+
+/* ეს არი პირველი გვერდის ხშრად დასმული კითხვების ბლოკი */
+
+.question-btn {
+  max-width: 800px;
+  width: 100%;
+  height: 30px;
+  border: none;
+  border-bottom: 2px solid #073914;
+  border-right: 2px solid #073914;
+  border-radius: 9px;
+  cursor: pointer;
+  color: #073914;
+  font-weight: bolder;
+  font-size: 16px;
+  letter-spacing: 6px;
+  box-shadow: 0px 1px 2px 0px #073914, 1px 2px 4px 0px #073914,
+    2px 4px 8px 0px #073914, 2px 4px 16px 0px #073914;
+  margin-bottom: 10px;
+}
+
+.answer-box {
+  background-color: #073914;
+  color: #eef1dd;
+  padding: 0 15px;
+  overflow: hidden;
+  max-width: 800px;
+  width: 100%;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 0;
+  transition: 0.5s linear;
+  border: 1px solid #eef1dd;
+  border-radius: 9px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.question-box.active-question .answer-box {
+  height: 100px;
+  text-align: start;
+}
+
+.active-question {
+  display: block;
 }
