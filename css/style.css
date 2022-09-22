@@ -517,16 +517,18 @@ section {
   font-weight: bolder;
   font-style: italic;
   letter-spacing: 2px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   padding: 5px;
   border-bottom: 1px solid #073914;
-  width: 400px;
+  width: 500px;
   margin-top: 100px;
 }
 .question-answer {
   font-size: 18px;
   margin-bottom: 50px;
-  width: 800px;
+  max-width: 800px;
+  width: 100%;
+  line-height: 30px;
 }
 .team {
   display: flex;
@@ -560,7 +562,7 @@ section {
   transform: scale(1.2);
 }
 .name {
-  font-size: 18px;
+  font-size: 20px;
   margin-bottom: 5px;
   font-weight: bolder;
   color: #073914;
@@ -588,10 +590,15 @@ section {
   border: 1px solid #eef1dd;
 }
 .person-profession {
-  font-size: 13px;
+  font-size: 14px;
   color: #1f232b;
   margin-bottom: 10px;
   font-weight: lighter;
+  margin-top: 20px;
+}
+.person-title {
+  max-width: 400px;
+  width: 100%;
 }
 span {
   width: 100px;
@@ -611,8 +618,24 @@ span {
 .person-text {
   color: #343a40;
   font-size: 14px;
+  font-weight: bolder;
+  text-align: center;
 }
-
+/* our-vision style */
+.our-vision {
+  margin-bottom: 12px;
+  font-size: 16px;
+}
+.vision-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+.fa-heart {
+  color: #073914;
+  margin-right: 10px;
+}
 /* service-1 page */
 .registration-btn {
   background-color: #eef1dd;
@@ -703,6 +726,7 @@ span {
 .fa-circle {
   margin-right: 15px;
   color: #073914;
+  font-size: smaller;
 }
 
 /* შეხვედრები წრეშის სტილები */
@@ -756,6 +780,7 @@ span {
 }
 .main-section {
   display: flex;
+  gap: 50px;
 }
 
 .slider-img {
@@ -765,16 +790,10 @@ span {
 
 /* აქ ვტესტავ modal-window  */
 .modal-window {
-  width: 500px;
-  height: 500px;
+  max-width: 700px;
+  width: 100%;
+  height: 700px;
   background-color: #eef1dd;
-  background: rgb(204, 246, 215);
-  background: linear-gradient(
-    0deg,
-    rgba(204, 246, 215, 1) 18%,
-    rgba(244, 249, 246, 1) 43%,
-    rgba(239, 247, 242, 1) 68%
-  );
   border: 1px solid #073914;
   position: fixed;
   /* left: 0; */
@@ -832,7 +851,7 @@ span {
 }
 .image-box {
   display: flex;
-  gap: 30px;
+  gap: 50px;
   align-items: center;
   /* justify-content: space-between; */
 }
@@ -841,25 +860,39 @@ span {
   object-fit: cover;
   width: 130px;
   height: 130px;
-  box-shadow: 0px 1px 2px 0px #073914, 1px 2px 4px 0px #073914,
-    2px 4px 8px 0px #073914, 2px 4px 16px 0px #073914;
+  box-shadow: 0px 1px 2px 0px #525355, 1px 2px 4px 0px #545855,
+    2px 4px 8px 0px #4a504b, 2px 4px 16px 0px #525854;
+  /* box-shadow: 0px 1px 2px 0px #073914, 1px 2px 4px 0px #073914,
+    2px 4px 8px 0px #073914, 2px 4px 16px 0px #073914; */
 }
 
 .personal-ul {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 .person-li {
   margin-bottom: 10px;
   font-size: 14px;
-  color: #073914;
+  color: #1f232b;
+  line-height: 20px;
   font-style: italic;
+}
+
+.person-experience {
+  font-size: 18px;
+  font-style: italic;
+  color: #073914;
+  border-bottom: 1px solid #073914;
+  padding: 10px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
 }
 
 /* ეს არი პირველი გვერდის ხშრად დასმული კითხვების ბლოკი */
 
 .question-btn {
-  max-width: 800px;
-  width: 100%;
+  width: 900px;
+  /* width: 100%; */
   height: 30px;
   border: none;
   border-bottom: 2px solid #073914;
@@ -868,11 +901,22 @@ span {
   cursor: pointer;
   color: #073914;
   font-weight: bolder;
-  font-size: 16px;
-  letter-spacing: 6px;
-  box-shadow: 0px 1px 2px 0px #073914, 1px 2px 4px 0px #073914,
-    2px 4px 8px 0px #073914, 2px 4px 16px 0px #073914;
+  font-size: 14px;
+  letter-spacing: 1px;
+  /* box-shadow: 0px 1px 2px 0px #073914, 1px 2px 4px 0px #073914,
+    2px 4px 8px 0px #073914, 2px 4px 16px 0px #073914; */
   margin-bottom: 10px;
+  box-shadow: 0px 1px 2px 0px #073914, 1px 2px 4px 0px #073914;
+  position: relative;
+  text-align: left;
+  padding-left: 10px;
+  font-style: italic;
+}
+
+.fa-angle-down {
+  position: absolute;
+  right: 10px;
+  font-size: 20px;
 }
 
 .answer-box {
@@ -880,25 +924,46 @@ span {
   color: #eef1dd;
   padding: 0 15px;
   overflow: hidden;
-  max-width: 800px;
+  max-width: 900px;
   width: 100%;
   font-size: 14px;
+  line-height: 15px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   height: 0;
   transition: 0.5s linear;
   border: 1px solid #eef1dd;
   border-radius: 9px;
   margin-bottom: 10px;
-  text-align: center;
+  text-align: left;
 }
-
-.question-box.active-question .answer-box {
+/* .question-box */
+.active-question .answer-box {
   height: 100px;
   text-align: start;
 }
 
 .active-question {
   display: block;
+}
+
+/*  ეს არის მთავარი გვერდის ჩვენს შესახების ტექსტის სტილები */
+.main-text {
+  margin-bottom: 30px;
+  font-size: 18px;
+  color: #1f232b;
+  letter-spacing: 0.5px;
+  line-height: 20px;
+}
+.main-text-box {
+  max-width: 550px;
+  width: 100%;
+}
+.bellow-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 50px;
 }
