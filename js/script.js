@@ -24,9 +24,9 @@ const swiper = new Swiper(".swiper", {
   },
   loop: true,
 });
-document.querySelector(".swiper-button-next").style.color = "green";
-document.querySelector(".swiper-button-prev").style.color = "green";
-document.querySelector(".swiper-scrollbar").style.background = "green";
+// document.querySelector(".swiper-button-next").style.color = "green";
+// document.querySelector(".swiper-button-prev").style.color = "green";
+// document.querySelector(".swiper-scrollbar").style.background = "green";
 
 // accordeon for questions
 

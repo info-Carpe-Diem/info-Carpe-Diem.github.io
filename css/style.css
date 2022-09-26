@@ -94,7 +94,9 @@ body {
 
 /* slider styles */
 .swiper {
-  max-width: 400px;
+  /* max-width: 400px; */
+  max-width: 900px;
+  height: 450px;
   background-color: #eef1dd;
   width: 100%;
   /* height: 500px; */
@@ -113,17 +115,37 @@ body {
   display: flex;
   gap: 50px;
 }
-
+.slider-block {
+  width: 800px;
+  height: 400px;
+  background-color: #073914;
+  box-shadow: 0px 20px 30px 0 rgba(0, 0, 0, 0.07);
+  color: #343a40;
+  border-radius: 12px;
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  /* padding: 15px; */
+  padding-bottom: 15px;
+  padding-top: 10px;
+  cursor: pointer;
+}
 .slider-img {
-  width: 300px;
-  height: 250px;
+  width: 700px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  transition: 0.5s;
 }
 
 /* friquently asked questions */
 .question-btn {
   width: 900px;
   /* width: 100%; */
-  /* height: 30px; */
+  height: 30px;
   border: none;
   border-bottom: 2px solid #073914;
   border-right: 2px solid #073914;
