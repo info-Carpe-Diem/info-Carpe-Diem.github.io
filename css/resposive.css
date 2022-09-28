@@ -187,3 +187,11 @@
     margin-top: 0 !important;
   }
 }
+
+/* contact page */
+@media (max-width: 900px) {
+  .contact-box {
+    flex-direction: column;
+    gap: 40px;
+  }
+}

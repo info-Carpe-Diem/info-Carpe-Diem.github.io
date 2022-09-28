@@ -822,21 +822,19 @@ section {
   align-items: center;
 }
 .contact-box {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  gap: 30px;
+  margin-bottom: 100px;
+}
+.adress-info {
+  max-width: 400px;
+  width: 100%;
   box-shadow: 0px 20px 30px 0 rgba(0, 0, 0, 0.07);
   border-radius: 12px;
   background-color: #eef1dd;
-  width: 350px;
   padding: 20px;
-  margin-bottom: 100px;
-  max-width: 650px;
-  width: 100%;
-  margin-top: 50px;
-}
-.contact-info-title {
-  margin-bottom: 50px;
-  font-size: 22px;
-  text-align: center;
-  font-weight: bold;
 }
 
 .adress-block {
@@ -845,9 +843,7 @@ section {
   /* max-width: 500px;
   width: 100%; */
 }
-.contanct-box {
-  width: 500px;
-}
+
 .adress-li {
   margin-bottom: 15px;
   font-size: 18px;
