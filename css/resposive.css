@@ -114,7 +114,6 @@
     display: flex;
     /* align-items: center; */
     flex-direction: column;
-    margin: 0 auto;
   }
   .swipper {
     max-width: 300px;
@@ -170,6 +169,21 @@
   }
   .team {
     flex-direction: column;
+    align-items: center;
     gap: 30px;
+  }
+  .question {
+    width: 300px !important;
+    text-align: center;
+  }
+}
+
+/* service page */
+@media (max-width: 900px) {
+  .services {
+    grid-template-columns: 1fr !important;
+    align-self: center;
+    gap: 30px !important;
+    margin-top: 0 !important;
   }
 }
