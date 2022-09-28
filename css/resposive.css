@@ -159,6 +159,11 @@
     max-width: 300px;
     /* width: 100%; */
     height: 90px !important;
+    font-size: 12px !important;
+  }
+
+  .fa-angle-down {
+    font-size: 10px !important;
   }
   .bellow-section {
     max-width: 300px;
