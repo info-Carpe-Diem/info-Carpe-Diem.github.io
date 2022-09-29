@@ -271,6 +271,9 @@
     height: 200px !important;
     text-align: start;
   }
+  .question-block.active-question .camp {
+    height: 300px !important;
+  }
   .registration-btn {
     width: 100% !important;
   }

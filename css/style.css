@@ -227,14 +227,17 @@ header {
   padding: 5px;
   border-bottom: 1px solid #073914;
   width: 450px;
+  margin-top: 50px;
+}
+h2.question:nth-child(1) {
   margin-top: 100px;
 }
 .question-answer {
   font-size: 18px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   max-width: 800px;
   width: 100%;
-  line-height: 30px;
+  line-height: 20px;
 }
 
 /* our-vision style */
@@ -690,11 +693,13 @@ span {
 }
 
 .camp {
-  font-size: 18px;
+  font-size: 14px;
+  max-height: calc(100vh - 210px);
+  overflow-y: auto;
 }
-.question-block.active-question .camp {
+/* .question-block.active-question .camp {
   height: 300px;
-}
+} */
 
 .consultation {
   max-width: 500px;
