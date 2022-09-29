@@ -95,13 +95,14 @@ body {
 /* slider styles */
 .swiper {
   /* max-width: 400px; */
-  max-width: 900px;
+  max-width: 850px;
   height: 450px;
-  background-color: #eef1dd;
+  /* background-color: #eef1dd; */
+  background-color: #cad1cc;
   width: 100%;
   /* height: 500px; */
   margin-bottom: 100px;
-  border-radius: 30px;
+  border-radius: 12px;
   box-shadow: 5px 20px 30px 0px rgba(54, 57, 55, 0.368);
 }
 .swiper-slide {
