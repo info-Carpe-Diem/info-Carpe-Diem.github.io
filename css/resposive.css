@@ -119,6 +119,9 @@
     max-width: 300px;
     width: 100%;
   } */
+  .real-title {
+    font-style: normal;
+  }
   .main-text {
     max-width: 300px;
     width: 100%;
