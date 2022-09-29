@@ -230,6 +230,12 @@
   .modal-window {
     height: 100% !important;
   }
+  .name {
+    font-size: 16px !important;
+  }
+  .person-profession {
+    font-size: 12px !important;
+  }
 }
 
 /* service page */
