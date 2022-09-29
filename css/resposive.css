@@ -180,7 +180,7 @@
     height: 100%;
     padding: 0 7px !important;
     font-size: 12px !important;
-    line-height: 12px !important;
+    /* line-height: 18px !important; */
   }
   .question-btn {
     max-width: 300px;
@@ -238,10 +238,19 @@
 /* service - 1 page */
 @media (max-width: 900px) {
   .service1-section {
+    width: 300px;
     flex-direction: column;
     gap: 30px;
   }
   .service1-text {
-    height: 700px !important;
+    height: 100% !important;
+    width: 300px;
+  }
+  .question-block.active-question .answer-text {
+    height: 150px !important;
+    text-align: start;
+  }
+  .registration-btn {
+    width: 100% !important;
   }
 }

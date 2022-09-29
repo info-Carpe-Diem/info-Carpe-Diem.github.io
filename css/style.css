@@ -192,7 +192,7 @@ body {
 }
 /* .question-box */
 .active-question .answer-box {
-  height: 100px;
+  height: 150px;
   text-align: start;
 }
 
