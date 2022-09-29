@@ -260,7 +260,8 @@ header {
   margin-bottom: 100px;
 }
 .person {
-  background-color: #eef1dd85;
+  /* background-color: #eef1dd85; */
+  background-color: #cad1cc;
   box-shadow: 5px 20px 30px 0px rgba(54, 57, 55, 0.368);
   max-width: 250px;
   width: 100%;
