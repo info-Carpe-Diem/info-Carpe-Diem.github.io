@@ -212,6 +212,9 @@
     width: 300px;
     font-size: 12px !important;
   }
+  .our-vision {
+    font-size: 12px !important;
+  }
   .team {
     flex-direction: column;
     align-items: center;
