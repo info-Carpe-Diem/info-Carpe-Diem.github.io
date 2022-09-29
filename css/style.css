@@ -375,11 +375,11 @@ span {
   text-align: center;
 }
 .fa-circle-xmark {
-  position: fixed;
+  /* position: fixed; */
   color: #073914;
   font-size: 22px;
-  right: 10px;
-  top: 15px;
+  /* right: 10px;
+  top: 15px; */
   cursor: pointer;
 }
 .fa-circle-xmark:hover {
@@ -403,8 +403,8 @@ span {
 }
 .image-box {
   display: flex;
-  gap: 50px;
-  align-items: center;
+  gap: 20px;
+  align-items: flex-start;
   /* justify-content: space-between; */
 }
 .modal-img {
