@@ -2,7 +2,7 @@ let overlay = document.querySelector(".overlay");
 let uskaName = document.querySelector(".Uska");
 let uskaWindow = document.querySelector(".uska-modal");
 
-let closeBtn = document.querySelectorAll(".fa-x");
+let closeBtn = document.querySelectorAll(".fa-circle-xmark");
 
 // for (let i = 0; i < closeBtn.length; i++) {
 //   closeBtn[i].onclick.style.Color = "red";
@@ -10,7 +10,9 @@ let closeBtn = document.querySelectorAll(".fa-x");
 //   personName.addEventListener("click", function () {
 //     modalWindow.classList.add("active-window");
 //   });
-//
+
+// openform();
+
 let closeovelay = function () {
   overlay.style.display = "none";
   uskaWindow.style.display = "none";
@@ -18,13 +20,18 @@ let closeovelay = function () {
   salomeWindow.style.display = "none";
   lanaWindow.style.display = "none";
 };
+
 // Uska Bio - modal window
 uskaName.onclick = function () {
   uskaWindow.style.display = "block";
   overlay.style.display = "block";
 };
-closeBtn.onclick = closeovelay;
+// closeBtn.onclick = closeovelay;
 overlay.onclick = closeovelay;
+
+for (let i = 0; i < closeBtn.length; i++) {
+  closeBtn[i].onclick = closeovelay;
+}
 
 // Nino Bio-modal window
 let ninoName = document.querySelector(".Nino");

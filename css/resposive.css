@@ -218,6 +218,9 @@
     width: 300px !important;
     text-align: center;
   }
+  .modal-window {
+    height: 100% !important;
+  }
 }
 
 /* service page */

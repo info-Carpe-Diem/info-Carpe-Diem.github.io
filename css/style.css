@@ -334,6 +334,7 @@ span {
 }
 
 /* აქ ვტესტავ modal-window  */
+
 .modal-window {
   max-width: 700px;
   width: 100%;
@@ -350,6 +351,7 @@ span {
   z-index: 900;
   display: none;
 }
+
 .uska-modal {
   display: none;
 }
@@ -366,15 +368,15 @@ span {
   margin-top: 50px;
   text-align: center;
 }
-.fa-x {
+.fa-circle-xmark {
   position: fixed;
   color: #073914;
   font-size: 22px;
   right: 10px;
-  top: 10px;
+  top: 15px;
   cursor: pointer;
 }
-.fa-x:hover {
+.fa-circle-xmark:hover {
   color: black;
 }
 
@@ -415,14 +417,14 @@ span {
 }
 .person-li {
   margin-bottom: 10px;
-  font-size: 14px;
+  font-size: 12px;
   color: #1f232b;
   line-height: 20px;
   font-style: italic;
 }
 
 .person-experience {
-  font-size: 18px;
+  font-size: 14px;
   font-style: italic;
   color: #073914;
   border-bottom: 1px solid #073914;
