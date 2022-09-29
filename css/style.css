@@ -11,6 +11,11 @@ body {
 }
 /* Navigation Bar styles */
 
+header {
+  position: sticky;
+  top: 0;
+  z-index: 250;
+}
 .header-block {
   display: flex;
   align-items: center;
