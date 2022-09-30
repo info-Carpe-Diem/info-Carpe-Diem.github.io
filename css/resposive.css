@@ -151,7 +151,7 @@
     /* align-items: center; */
     flex-direction: column;
   }
-  .swipper {
+  .swiper {
     max-width: 300px;
     width: 100%;
   }

@@ -329,7 +329,7 @@ h2.question:nth-child(1) {
   max-width: 400px;
   width: 100%;
 }
-span {
+.person-span {
   width: 100px;
   height: 1px;
   background-color: #066448;
@@ -537,7 +537,7 @@ span {
   font-size: 24px;
   font-weight: bolder;
   color: #073914;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   border-bottom: 2px solid #073914;
   padding: 10px;
   text-align: center;
@@ -902,4 +902,51 @@ div.gallery img {
 div.desc {
   padding: 15px;
   text-align: center;
+}
+
+/* photo page styles */
+
+.img-gallery {
+  width: 80%;
+  margin: 100px auto 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-gap: 30px;
+}
+
+.img-gallery img {
+  width: 100%;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.img-gallery img:hover {
+  transform: scale(0.8) rotate(-15deg);
+  border-radius: 20px;
+  box-shadow: 0 32x 7px black;
+}
+
+.full-img {
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.9);
+  position: fixed;
+  left: 0;
+  top: 0;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.full-img img {
+  width: 90%;
+  max-width: 500px;
+}
+.full-img .close {
+  position: absolute;
+  top: 15%;
+  right: 5%;
+  font-size: 30px;
+  cursor: pointer;
+  color: white;
 }

@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/resposive.css">
     <link rel="stylesheet" href="css/style.css" />
     <link
       rel="stylesheet"
@@ -37,51 +38,40 @@
                   <li class="nav-li">
                       <a class ="nav-a" href="service.html"> სერვისები </a>
                   </li>
-                  <li>
+                  <li class="nav-li">
                     <a class ="nav-a active" href="photos.html"> გალერეა </a>
                 </li>
-                <li>
+                <li class="nav-li">
                     <a class ="nav-a" href="#"> ვიდეო </a>
                 </li>
                 <li class="nav-li">
                     <a class ="nav-a" href="article.html"> სტატიები </a>
-                </li>
+                </li class="nav-li">
                   <li class="nav-li">
                       <a class ="nav-a " href="contact.html"> კონტაქტი </a>
                   </li>
                 </ul>
+                <div class="humburger">
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+                  <span class="bar"></span>
+              </div>
             </nav>
       </header>
       <div class="container">
-        <h2 class="main-title"> მალე...</h2>
-        <div class="gallery">
-            <a href="images/245622218_939781206884957_6476939842326534901_n.jpg">
-              <img src="images/245622218_939781206884957_6476939842326534901_n.jpg" alt="Cinque Terre" width="600" height="400">
-            </a>
-            <div class="desc">Add a description of the image here</div>
-          </div>
-          
-          <div class="gallery">
-            <a href="images/279563310_540949714217207_4094088807898975909_n-removebg-preview.png">
-              <img src="images/279563310_540949714217207_4094088807898975909_n-removebg-preview.png" alt="Forest" width="600" height="400">
-            </a>
-            <div class="desc">Add a description of the image here</div>
-          </div>
-          
-          <div class="gallery">
-            <a target="_blank" href="img_lights.jpg">
-              <img src="img_lights.jpg" alt="Northern Lights" width="600" height="400">
-            </a>
-            <div class="desc">Add a description of the image here</div>
-          </div>
-          
-          <div class="gallery">
-            <a target="_blank" href="img_mountains.jpg">
-              <img src="img_mountains.jpg" alt="Mountains" width="600" height="400">
-            </a>
-            <div class="desc">Add a description of the image here</div>
-          </div>
-        
+        <div class="full-img" id="fullImgBox">
+          <img src="images//lana.jpg"  id="fullImg" alt="">
+          <span class="close" onclick="closeFullImg()">X</span>
+
+        </div>
+      <div class="img-gallery">
+        <img src="images/lana.jpg" width="150px" height="200px" alt="" onclick="opneFullImg(this.src)">
+        <img src="images/nino.jpg"  width="150px" height="200px" alt="" onclick="opneFullImg(this.src)">
+        <img src="images/salo.jpg"  width="150px" height="200px"alt="" onclick="opneFullImg(this.src)">
+        <img src="images//uska.jpg" width="150px" height="200px" alt="" onclick="opneFullImg(this.src)">
+        <img src="images/5-6.jpg" width="150px" height="200px" alt="" onclick="opneFullImg(this.src)">
+        <img src="images/9-11.jpg" width="150px" height="200px" alt="" onclick="opneFullImg(this.src)">
+      </div>
       </div>
          
       
@@ -137,5 +127,6 @@
               </h2>
           </div>
       </footer>
+      <script src="js/photo.js"></script>
   </body>
 </html>
