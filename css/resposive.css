@@ -184,16 +184,21 @@
   .answer-box {
     max-width: 300px;
     width: 100%;
-    /* height: 100%; */
+    /* height: 100% !important; */
     padding: 0 7px !important;
     font-size: 12px !important;
     /* line-height: 18px !important; */
+    transition: all 0.5s ease-in-out !important;
   }
   .question-btn {
     max-width: 300px;
     /* width: 100%; */
-    height: 90px !important;
+    /* height: 90px !important; */
     font-size: 12px !important;
+  }
+  .active-question .answer-box {
+    height: 100% !important;
+    padding: 20px !important;
   }
 
   .fa-angle-down {

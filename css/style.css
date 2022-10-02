@@ -151,7 +151,7 @@ header {
 .question-btn {
   width: 900px;
   /* width: 100%; */
-  height: 30px;
+  height: 100%;
   border: none;
   border-bottom: 2px solid #073914;
   border-right: 2px solid #073914;
@@ -167,7 +167,6 @@ header {
   box-shadow: 0px 1px 2px 0px #073914, 1px 2px 4px 0px #073914;
   position: relative;
   text-align: left;
-  padding-left: 10px;
   font-style: italic;
 }
 
@@ -190,6 +189,7 @@ header {
   align-items: center;
   /* justify-content: center; */
   height: 0;
+  /* transition: 0.5s ease-out; */
   transition: 0.5s linear;
   border: 1px solid #eef1dd;
   border-radius: 9px;
@@ -198,7 +198,8 @@ header {
 }
 /* .question-box */
 .active-question .answer-box {
-  height: 150px;
+  height: 100%;
+  padding: 20px;
   text-align: start;
 }
 
@@ -680,7 +681,7 @@ h2.question:nth-child(1) {
 }
 
 .question-block.active-question .answer-text {
-  height: 100px;
+  height: 200px;
   text-align: start;
 }
 
