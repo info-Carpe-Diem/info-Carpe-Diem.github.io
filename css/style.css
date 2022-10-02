@@ -556,7 +556,7 @@ h2.question:nth-child(1) {
 .service1-text {
   /* background-color: #eef1dd; */
   background-color: #cad1cc;
-  padding: 25px;
+  padding: 15px;
   border-radius: 12px;
   box-shadow: 0px 20px 30px 0 rgba(0, 0, 0, 0.07);
   max-width: 400px;
@@ -576,6 +576,7 @@ h2.question:nth-child(1) {
   font-size: 22px;
   position: absolute;
   right: 5px;
+  margin-left: 5px;
 }
 
 .service1-li {
