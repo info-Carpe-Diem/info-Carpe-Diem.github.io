@@ -703,10 +703,9 @@ h2.question:nth-child(1) {
 .camp {
   font-size: 14px;
   max-height: calc(100vh - 210px);
-  overflow-y: auto;
 }
 .question-block.active-question .camp {
-  height: 250px;
+  height: 230px;
 }
 
 .consultation {
