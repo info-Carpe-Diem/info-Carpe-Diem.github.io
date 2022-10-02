@@ -214,6 +214,12 @@ header {
   flex-direction: column;
   margin-bottom: 50px;
 }
+.link {
+  color: white;
+  margin-left: 10px;
+  border-bottom: 1px solid white;
+  font-style: italic;
+}
 
 /* Second page - about us */
 
@@ -672,7 +678,7 @@ h2.question:nth-child(1) {
   width: 100%;
   font-size: 14px;
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
   height: 0;
   transition: 0.5s linear;
@@ -699,9 +705,9 @@ h2.question:nth-child(1) {
   max-height: calc(100vh - 210px);
   overflow-y: auto;
 }
-/* .question-block.active-question .camp {
-  height: 300px;
-} */
+.question-block.active-question .camp {
+  height: 250px;
+}
 
 .consultation {
   max-width: 500px;
