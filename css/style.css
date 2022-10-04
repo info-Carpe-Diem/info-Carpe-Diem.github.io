@@ -679,16 +679,17 @@ h2.question:nth-child(1) {
   font-size: 14px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   height: 0;
   transition: 0.5s linear;
   border: 1px solid #073914;
   border-radius: 0 0 9px 9px;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .question-block.active-question .answer-text {
-  height: 200px;
+  height: 100%;
+  padding: 15px;
   text-align: start;
 }
 
