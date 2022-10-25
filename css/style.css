@@ -9,6 +9,9 @@ body {
   margin: 0 auto;
   position: relative;
 }
+p {
+  line-height: 20px;
+}
 /* Navigation Bar styles */
 
 header {
@@ -158,7 +161,7 @@ header {
   border-radius: 9px;
   cursor: pointer;
   color: #073914;
-  font-weight: bolder;
+  /* font-weight: bolder; */
   font-size: 14px;
   letter-spacing: 1px;
   /* box-shadow: 0px 1px 2px 0px #073914, 1px 2px 4px 0px #073914,
@@ -347,6 +350,7 @@ h2.question:nth-child(1) {
   font-size: 14px;
   font-weight: bolder;
   text-align: center;
+  /* line-height: 20px; */
 }
 
 /* აქ ვტესტავ modal-window  */
