@@ -273,8 +273,10 @@
     width: 300px;
   }
   .question-block.active-question .answer-text {
-    height: 200px !important;
-    text-align: start;
+    /* height: 200px !important;
+    text-align: start; */
+    height: 100% !important;
+    padding: 20px !important;
   }
   .question-block.active-question .camp {
     height: 300px !important;
