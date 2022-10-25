@@ -510,6 +510,17 @@ h2.question:nth-child(1) {
   color: rgb(187, 170, 14);
 }
 
+.servive-page {
+  font-size: 16px;
+  position: fixed;
+  top: 100px;
+  border-bottom: 1px solid black;
+  color: black;
+  font-style: italic;
+  font-weight: bolder;
+  line-height: 20px;
+}
+
 /* styleing section-1 */
 
 /* service-1 page */
@@ -549,7 +560,7 @@ h2.question:nth-child(1) {
   padding: 10px;
   text-align: center;
   font-style: italic;
-  margin-top: 50px;
+  margin-top: 80px;
   letter-spacing: 1px;
   text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
     0px -5px 35px rgba(255, 255, 255, 0.3);
