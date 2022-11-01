@@ -151,6 +151,7 @@ header {
 }
 
 /* friquently asked questions */
+
 .question-btn {
   width: 900px;
   /* width: 100%; */
@@ -457,7 +458,7 @@ h2.question:nth-child(1) {
 }
 
 /* Pages 3 - our services */
-/* service page styleing */
+/* service page styling */
 
 .services {
   display: grid;
@@ -525,7 +526,7 @@ h2.question:nth-child(1) {
   line-height: 20px;
 }
 
-/* styleing section-1 */
+/* styling section-1 */
 
 /* service-1 page */
 
