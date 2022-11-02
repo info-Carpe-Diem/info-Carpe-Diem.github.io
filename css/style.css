@@ -740,8 +740,6 @@ h2.question:nth-child(1) {
   width: 100%;
   padding: 10px 40px 30px 40px;
   background-color: #1f232b;
-  /* position: fixed; */
-  bottom: 0;
 }
 
 .bottom-footer {
