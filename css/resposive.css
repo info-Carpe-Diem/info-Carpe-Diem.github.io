@@ -148,7 +148,7 @@
   .container {
     width: 500px !important;
     display: flex;
-    /* align-items: center; */
+    align-items: center;
     flex-direction: column;
   }
   .swiper {
@@ -239,6 +239,7 @@
   .question {
     width: 500px;
     font-size: 16px !important;
+    text-align: center !important;
   }
   .question-answer {
     width: 500px;
@@ -252,10 +253,7 @@
     align-items: center;
     gap: 30px;
   }
-  .question {
-    width: 500px !important;
-    text-align: center;
-  }
+
   .modal-window {
     height: 100% !important;
   }
@@ -264,6 +262,14 @@
   }
   .person-profession {
     font-size: 12px !important;
+  }
+}
+@media (max-width: 700px) {
+  .question {
+    width: 300px !important;
+  }
+  .question-answer {
+    width: 300px !important;
   }
 }
 
