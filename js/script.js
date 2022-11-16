@@ -1,3 +1,5 @@
+"use strict";
+
 // // slider
 
 const swiper = new Swiper(".swiper", {
@@ -52,8 +54,6 @@ document.querySelectorAll(".nav-a").forEach((n) =>
     menubar.classList.remove("activemenu");
   })
 );
-
-
 
 // current date
 

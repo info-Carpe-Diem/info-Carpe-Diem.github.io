@@ -1,3 +1,5 @@
+"use strict";
+
 let overlay = document.querySelector(".overlay");
 let uskaName = document.querySelector(".Uska");
 let uskaWindow = document.querySelector(".uska-modal");

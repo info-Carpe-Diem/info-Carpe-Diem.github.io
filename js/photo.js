@@ -1,3 +1,5 @@
+"use strict";
+
 let fullImgBox = document.getElementById("fullImgBox");
 let fullImg = document.getElementById("fullImg");
 

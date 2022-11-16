@@ -1,3 +1,5 @@
+"use strict";
+
 // burger bar
 let hamburger = document.querySelector(".humburger");
 let menubar = document.querySelector(".nav-ul");
