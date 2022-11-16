@@ -18,7 +18,7 @@
   transition: all 0.3s ease-in-out;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
   .header-block {
     position: relative;
     width: 100%;
@@ -107,12 +107,12 @@
 
 /* main section - organisation information */
 
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
   .main-section {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    max-width: 300px;
+    max-width: 500px;
     width: 100%;
   }
   /* .main-text-box {
@@ -123,13 +123,13 @@
     font-style: normal;
   }
   .main-text {
-    max-width: 300px;
+    max-width: 500px;
     width: 100%;
     padding: 0 10px;
   }
 
   .main-title {
-    max-width: 300px;
+    max-width: 500px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -144,12 +144,28 @@
 
 /* slider */
 
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
   .container {
-    width: 300px !important;
+    width: 500px !important;
     display: flex;
     /* align-items: center; */
     flex-direction: column;
+  }
+  .swiper {
+    max-width: 500px;
+    width: 100%;
+  }
+  .slider-img {
+    width: 350px !important;
+  }
+  .service-title {
+    font-size: 14px !important;
+  }
+}
+
+@media (max-width: 700px) {
+  .container {
+    width: 300px !important;
   }
   .swiper {
     max-width: 300px;
@@ -158,14 +174,10 @@
   .slider-img {
     width: 250px !important;
   }
-  .service-title {
-    font-size: 14px !important;
-  }
 }
-
 /* footer */
 
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
   /* footer {
       width: 300px;
     }
@@ -180,9 +192,9 @@
     gap: 30px;
   }
 }
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
   .answer-box {
-    max-width: 300px;
+    max-width: 500px;
     width: 100%;
     /* height: 100% !important; */
     padding: 0 7px !important;
@@ -191,7 +203,7 @@
     transition: all 0.5s ease-in-out !important;
   }
   .question-btn {
-    max-width: 300px;
+    max-width: 500px;
     /* width: 100%; */
     /* height: 90px !important; */
     font-size: 12px !important;
@@ -205,19 +217,31 @@
     font-size: 10px !important;
   }
   .bellow-section {
+    max-width: 500px;
+    width: 100%;
+  }
+}
+@media (max-width: 700px) {
+  .answer-box {
+    max-width: 300px;
+    width: 100%;
+  }
+  .question-btn {
+    max-width: 300px;
+  }
+  .bellow-section {
     max-width: 300px;
     width: 100%;
   }
 }
-
 /* second page - about us */
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
   .question {
     width: 500px;
     font-size: 16px !important;
   }
   .question-answer {
-    width: 300px;
+    width: 500px;
     font-size: 12px !important;
   }
   .our-vision {
@@ -229,7 +253,7 @@
     gap: 30px;
   }
   .question {
-    width: 300px !important;
+    width: 500px !important;
     text-align: center;
   }
   .modal-window {
@@ -244,42 +268,52 @@
 }
 
 /* service page */
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
+  .services {
+    /* grid-template-columns: 1fr !important; */
+    grid-template-columns: 1fr 1fr !important;
+    align-self: center;
+    gap: 200px !important;
+    margin-top: 0 !important;
+  }
+}
+
+@media (max-width: 700px) {
   .services {
     grid-template-columns: 1fr !important;
     align-self: center;
     gap: 30px !important;
     margin-top: 0 !important;
   }
-}
-
-/* contact page */
-@media (max-width: 900px) {
-  .contact-box {
-    flex-direction: column;
-    gap: 40px;
+  /* contact page */
+  @media (max-width: 1100px) {
+    .contact-box {
+      flex-direction: column;
+      gap: 40px;
+    }
   }
 }
 
 /* service - 1 page */
-@media (max-width: 900px) {
+@media (max-width: 1100px) {
   .service1-section {
-    width: 300px;
-    flex-direction: column;
+    width: 500px;
+    flex-direction: column !important;
     gap: 30px;
   }
   .service1-text {
     height: 100% !important;
-    width: 300px;
+    width: 500px;
   }
   .question-block.active-question .answer-text {
     /* height: 200px !important;
-    text-align: start; */
+  text-align: start; */
     height: 100% !important;
     padding: 20px !important;
+    width: 100% !important;
   }
   .question-block.active-question .camp {
-    height: 300px !important;
+    height: 500px !important;
   }
   .registration-btn {
     width: 100% !important;
@@ -302,5 +336,14 @@
   }
   .service1-li {
     font-size: 14px !important;
+  }
+}
+
+@media (max-width: 700px) {
+  .service1-section {
+    width: 300px;
+  }
+  .service1-text {
+    width: 300px;
   }
 }
