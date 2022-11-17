@@ -300,7 +300,8 @@
   }
 }
 
-/* service - 1 page */
+/* all service pages */
+
 @media (max-width: 1100px) {
   .service1-section {
     width: 500px;
