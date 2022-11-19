@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 /* Burger bar styles */
 
 .humburger {
@@ -15,6 +22,7 @@
   margin: 5px auto;
   background-color: white;
   -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
@@ -32,10 +40,14 @@
   }
 
   .humburger.activemenu .bar:nth-child(1) {
+    -webkit-transform: translateY(8px) rotate(45deg);
+    -ms-transform: translateY(8px) rotate(45deg);
     transform: translateY(8px) rotate(45deg);
   }
 
   .humburger.activemenu .bar:nth-child(3) {
+    -webkit-transform: translateY(-8px) rotate(-45deg);
+    -ms-transform: translateY(-8px) rotate(-45deg);
     transform: translateY(-8px) rotate(-45deg);
   }
 
@@ -70,7 +82,11 @@
 
   .nav-ul.activemenu {
     display: block !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify !important;
+    -ms-flex-pack: justify !important;
     justify-content: space-between !important;
     right: 0;
     position: fixed;
@@ -80,11 +96,32 @@
     opacity: 90%;
     top: 0;
     /* gap: 0; */
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
     /* width: 100%; */
     text-align: center;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
     transition: 0.3s;
     background: rgb(20, 59, 33);
+    background: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(rgba(20, 59, 33, 1)),
+      color-stop(37%, rgba(16, 72, 45, 1)),
+      color-stop(51%, rgba(13, 79, 52, 1)),
+      color-stop(80%, rgba(6, 100, 72, 1))
+    );
+    background: -o-linear-gradient(
+      bottom,
+      rgba(20, 59, 33, 1) 0%,
+      rgba(16, 72, 45, 1) 37%,
+      rgba(13, 79, 52, 1) 51%,
+      rgba(6, 100, 72, 1) 80%
+    );
     background: linear-gradient(
       0deg,
       rgba(20, 59, 33, 1) 0%,
@@ -96,7 +133,11 @@
   }
 
   .nav-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
     width: 100%;
     padding: 20px;
@@ -109,8 +150,15 @@
 
 @media (max-width: 1100px) {
   .main-section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     max-width: 500px;
     width: 100%;
@@ -131,8 +179,14 @@
   .main-title {
     max-width: 500px;
     width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     font-size: 14px !important;
     margin-bottom: 30px !important;
@@ -147,8 +201,15 @@
 @media (max-width: 1100px) {
   .container {
     width: 500px !important;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
   }
   .swiper {
@@ -187,7 +248,12 @@
     } */
 
   .footer-block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     gap: 30px;
   }
@@ -200,6 +266,8 @@
     padding: 0 7px !important;
     font-size: 12px !important;
     /* line-height: 18px !important; */
+    -webkit-transition: all 0.5s ease-in-out !important;
+    -o-transition: all 0.5s ease-in-out !important;
     transition: all 0.5s ease-in-out !important;
   }
   .question-btn {
@@ -249,7 +317,12 @@
     font-size: 12px !important;
   }
   .team {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     gap: 30px;
   }
@@ -277,7 +350,9 @@
 @media (max-width: 1100px) {
   .services {
     /* grid-template-columns: 1fr !important; */
+    -ms-grid-columns: 1fr 200px 1fr !important;
     grid-template-columns: 1fr 1fr !important;
+    -ms-grid-row-align: center;
     align-self: center;
     gap: 200px !important;
     margin-top: 0 !important;
@@ -286,7 +361,9 @@
 
 @media (max-width: 700px) {
   .services {
+    -ms-grid-columns: 1fr !important;
     grid-template-columns: 1fr !important;
+    -ms-grid-row-align: center;
     align-self: center;
     gap: 30px !important;
     margin-top: 0 !important;
@@ -294,6 +371,9 @@
   /* contact page */
   @media (max-width: 1100px) {
     .contact-box {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
       flex-direction: column;
       gap: 40px;
     }
@@ -305,6 +385,9 @@
 @media (max-width: 1100px) {
   .service1-section {
     width: 500px;
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+    -ms-flex-direction: column !important;
     flex-direction: column !important;
     gap: 30px;
   }
