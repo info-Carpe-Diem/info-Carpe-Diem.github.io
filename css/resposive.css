@@ -437,3 +437,10 @@
     width: 300px;
   }
 }
+
+/* preschool gallery */
+@media (max-width: 700px) {
+  .section-gallery {
+    flex-direction: column;
+  }
+}
