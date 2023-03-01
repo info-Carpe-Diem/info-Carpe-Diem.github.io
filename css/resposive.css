@@ -200,7 +200,7 @@
 
 @media (max-width: 1100px) {
   .container {
-    width: 500px !important;
+    /* width: 500px !important; */
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -439,8 +439,9 @@
 }
 
 /* preschool gallery */
-@media (max-width: 700px) {
+@media (max-width: 900px) {
   .section-gallery {
     flex-direction: column;
+    gap: 50px;
   }
 }
