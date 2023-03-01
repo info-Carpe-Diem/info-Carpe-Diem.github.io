@@ -200,7 +200,7 @@
 
 @media (max-width: 1100px) {
   .container {
-    /* width: 500px !important; */
+    width: 500px !important;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;

@@ -139,7 +139,7 @@ header {
   font-style: italic;
 }
 .main-text-box {
-  max-width: 550px;
+  /* max-width: 550px; */
   width: 100%;
 }
 
@@ -1250,6 +1250,7 @@ div.desc {
 .preschool-a {
   color: rgb(187, 170, 14);
   font-size: 22px;
+  text-align: center;
 }
 .preschool-a:hover {
   font-weight: bold;
