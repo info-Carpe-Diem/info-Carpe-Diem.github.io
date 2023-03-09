@@ -1274,7 +1274,7 @@ div.desc {
 
 /* article page styles */
 .article-image {
-  max-width: 250px;
+  max-width: 200px;
   width: 100%;
   height: 250px;
   border-radius: 9px;
@@ -1286,9 +1286,9 @@ div.desc {
   justify-content: center;
 }
 .article-a {
-  font-size: 22px;
+  font-size: 18px;
   color: #073914;
-  font-weight: bolder;
+
   max-width: 250px;
   width: 100%;
   text-align: center;
