@@ -326,6 +326,10 @@
     align-items: center;
     gap: 30px;
   }
+  .team1 {
+    flex-direction: column;
+    margin-bottom: 20px !important;
+  }
 
   .modal-window {
     height: 100% !important;

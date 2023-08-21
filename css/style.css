@@ -319,9 +319,9 @@ header {
   width: 450px;
   margin-top: 50px;
 }
-h2.question:nth-child(1) {
+/* h2.question:nth-child(1) {
   margin-top: 100px;
-}
+} */
 .question-answer {
   font-size: 18px;
   margin-bottom: 30px;
@@ -355,6 +355,11 @@ h2.question:nth-child(1) {
   -ms-flex-pack: justify;
   justify-content: space-between;
   margin-bottom: 100px;
+}
+.team1 {
+  display: flex;
+  margin-bottom: 100px;
+  gap: 30px;
 }
 .person {
   /* background-color: #eef1dd85; */
@@ -709,11 +714,13 @@ h2.question:nth-child(1) {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  gap: 50px;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
   margin-bottom: 80px;
 }
+
 .service1-text {
   /* background-color: #eef1dd; */
   background-color: #cad1cc;
@@ -865,6 +872,7 @@ h2.question:nth-child(1) {
 
 .question-block {
   margin-bottom: 40px;
+  margin-top: 40px;
 }
 
 .camp {

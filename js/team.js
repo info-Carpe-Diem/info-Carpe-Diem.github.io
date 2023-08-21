@@ -17,17 +17,17 @@ let closeBtn = document.querySelectorAll(".fa-circle-xmark");
 
 let closeovelay = function () {
   overlay.style.display = "none";
-  uskaWindow.style.display = "none";
-  ninoWindow.style.display = "none";
-  // salomeWindow.style.display = "none";
-  // lanaWindow.style.display = "none";
+  // uskaWindow.style.display = "none";
+  // ninoWindow.style.display = "none";
+  salomeWindow.style.display = "none";
+  lanaWindow.style.display = "none";
 };
 
-// Uska Bio - modal window
-uskaName.onclick = function () {
-  uskaWindow.style.display = "block";
-  overlay.style.display = "block";
-};
+// // Uska Bio - modal window
+// uskaName.onclick = function () {
+//   uskaWindow.style.display = "block";
+//   overlay.style.display = "block";
+// };
 // closeBtn.onclick = closeovelay;
 overlay.onclick = closeovelay;
 
@@ -35,31 +35,32 @@ for (let i = 0; i < closeBtn.length; i++) {
   closeBtn[i].onclick = closeovelay;
 }
 
-// Nino Bio-modal window
-let ninoName = document.querySelector(".Nino");
-let ninoWindow = document.querySelector(".nino-modal");
+// // Nino Bio-modal window
+// let ninoName = document.querySelector(".Nino");
+// let ninoWindow = document.querySelector(".nino-modal");
 
-ninoName.onclick = function () {
-  ninoWindow.style.display = "block";
-  overlay.style.display = "block";
-};
+// ninoName.onclick = function () {
+//   ninoWindow.style.display = "block";
+//   overlay.style.display = "block";
+// };
 
 //   Salome Bio-modal window
-// let salomeName = document.querySelector(".Salome");
-// let salomeWindow = document.querySelector(".salome-modal");
+let salomeName = document.querySelector(".Salome");
+let salomeWindow = document.querySelector(".salome-modal");
 
-// salomeName.onclick = function () {
-//   salomeWindow.style.display = "block";
-//   overlay.style.display = "block";
-// };
+salomeName.onclick = function () {
+  salomeWindow.style.display = "block";
+  overlay.style.display = "block";
+  console.log("Salome");
+};
 
 // Lana modal-window
-// let lanaName = document.querySelector(".Lana");
-// let lanaWindow = document.querySelector(".lana-modal");
-// lanaName.onclick = function () {
-//   lanaWindow.style.display = "block";
-//   overlay.style.display = "block";
-// };
+let lanaName = document.querySelector(".Lana");
+let lanaWindow = document.querySelector(".lana-modal");
+lanaName.onclick = function () {
+  lanaWindow.style.display = "block";
+  overlay.style.display = "block";
+};
 
 // burger bar
 let hamburger = document.querySelector(".humburger");
