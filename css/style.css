@@ -107,7 +107,7 @@ header {
 }
 
 .nav-a {
-  font-size: 20px;
+  font-size: 16px;
   /* color: rgb(228, 228, 156); */
   color: #eef1dd;
   font-weight: bolder;
@@ -155,7 +155,6 @@ header {
   margin-bottom: 100px;
   border-radius: 12px;
   -webkit-box-shadow: 5px 20px 30px 0px rgba(54, 57, 55, 0.368);
-  box-shadow: 5px 20px 30px 0px rgba(54, 57, 55, 0.368);
 }
 .swiper-slide {
   display: -webkit-box;
@@ -200,6 +199,10 @@ header {
   padding-bottom: 15px;
   padding-top: 10px;
   cursor: pointer;
+  animation-duration: 300ms; /* Adds a smooth animation duration for any applied animations */
+  
+  /* Smooth transitions on transform for sliding effect */
+  transition: transform 0.3s ease-in-out;
 }
 .slider-img {
   width: 700px;
@@ -211,6 +214,10 @@ header {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
+  transition: transform 0.3s ease-in-out;
+}
+.slider-img:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
 }
 
 /* friquently asked questions */
@@ -350,7 +357,10 @@ header {
 .team {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap:32px;
+  text-align: center;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
@@ -489,6 +499,9 @@ header {
   display: none;
 }
 .salome-modal {
+  display: none;
+}
+.mariam-modal{
   display: none;
 }
 
@@ -992,10 +1005,11 @@ header {
 
 .ftr-title {
   color: #eef1dd;
-  font-size: 18px;
+  font-size: 16px;
   margin-bottom: 15px;
   text-align: center;
   text-transform: uppercase;
+  padding-bottom: 10px !important;
 }
 .contact-title {
   padding: 5px;
@@ -1301,4 +1315,30 @@ div.desc {
   width: 100%;
   text-align: center;
   text-decoration: underline;
+}
+.customScroll {
+  overflow: auto; 
+  padding: 12px;
+}
+
+.customScroll::-webkit-scrollbar {
+  width: 10px;
+  height: 8px;
+
+}
+
+.customScroll::-webkit-scrollbar-track {
+  background: transparent;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.customScroll::-webkit-scrollbar-thumb {
+  background-color: rgba(158, 155, 155, 0.88);
+  border-radius: 80px;
+
+}
+
+.customScroll::-webkit-scrollbar-thumb:hover {
+  background: rgba(158, 155, 155, 0.88);
 }

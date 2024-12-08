@@ -23,8 +23,10 @@ const swiper = new Swiper(".swiper", {
   },
   autoplay: {
     delay: 2500,
+    disableOnInteraction: false, 
   },
   loop: true,
+  speed:700, 
 });
 // document.querySelector(".swiper-button-next").style.color = "green";
 // document.querySelector(".swiper-button-prev").style.color = "green";
