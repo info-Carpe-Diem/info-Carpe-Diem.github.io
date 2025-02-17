@@ -2,35 +2,31 @@
 
 // // slider
 
-const swiper = new Swiper(".swiper", {
-  // Optional parameters
+// const swiper = new Swiper(".swiper", {
 
-  // If we need pagination
 
-  pagination: {
-    el: ".swiper-pagination",
-  },
+//   pagination: {
+//     el: ".swiper-pagination",
+//   },
 
-  // Navigation arrows
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
+ 
+//   navigation: {
+//     nextEl: ".swiper-button-next",
+//     prevEl: ".swiper-button-prev",
+//   },
 
-  // And if we need scrollbar
-  scrollbar: {
-    el: ".swiper-scrollbar",
-  },
-  autoplay: {
-    delay: 2500,
-    disableOnInteraction: false, 
-  },
-  loop: true,
-  speed:700, 
-});
-// document.querySelector(".swiper-button-next").style.color = "green";
-// document.querySelector(".swiper-button-prev").style.color = "green";
-// document.querySelector(".swiper-scrollbar").style.background = "green";
+
+//   scrollbar: {
+//     el: ".swiper-scrollbar",
+//   },
+//   autoplay: {
+//     delay: 2500,
+//     disableOnInteraction: false, 
+//   },
+//   loop: true,
+//   speed:700, 
+// });
+
 
 // accordeon for questions
 

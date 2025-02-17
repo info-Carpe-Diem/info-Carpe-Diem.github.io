@@ -9,8 +9,9 @@
       href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
     />
     <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/resposive.css" />
+    
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/resposive.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
@@ -27,38 +28,38 @@
       <div class="header-block">
         <div class="logo">
           <a class="logo-link" href="index.html">
-            <img
-              class="logo-img"
-              src="images/279563310_540949714217207_4094088807898975909_n-removebg-preview.png"
-              alt="logo"
-            />
+            <img class="logo-img" src="images/logo.png" alt="logo" />
           </a>
         </div>
         <nav class="nav-block">
           <ul class="nav-ul">
             <li class="nav-li">
-              <a class="nav-a" href="index.html"> მთავარი </a>
+              <a class="nav-a uppercase" href="index.html"> მთავარი </a>
             </li>
             <li class="nav-li">
-              <a class="nav-a" href="aboutus.html"> ჩვენს შესახებ </a>
+              <a class="nav-a uppercase" href="aboutus.html"> ჩვენ შესახებ </a>
             </li>
             <li class="nav-li">
-              <a class="nav-a" href="service.html"> სერვისები </a>
+              <a class="nav-a uppercase uppercase" href="service.html">
+                სერვისები</a
+              >
             </li>
             <li class="nav-li">
-              <a class="nav-a" href="team.html"> გუნდი</a>
+              <a class="nav-a uppercase" href="projects.html">პროექტები </a>
             </li>
             <li class="nav-li">
-              <a class="nav-a active" href="photos.html"> გალერეა </a>
+              <a class="nav-a uppercase" href="team.html"> გუნდი</a>
             </li>
+
             <li class="nav-li">
-              <a class="nav-a" href="video.html"> ვიდეო </a>
+              <a class="nav-a uppercase active" href="photos.html"> გალერეა </a>
             </li>
+
             <li class="nav-li">
-              <a class="nav-a" href="article.html"> სტატიები </a>
+              <a class="nav-a uppercase" href="article.html"> სტატიები </a>
             </li>
-            <li class="nav-li">
-              <a class="nav-a" href="contact.html"> კონტაქტი </a>
+            <li class="contactBtn">
+              <a class="BtnTxt uppercase" href="contact.html"> კონტაქტი </a>
             </li>
           </ul>
           <div class="humburger">
@@ -69,10 +70,13 @@
         </nav>
       </div>
     </header>
-    <div class="container new-container">
-      <i class="fa-solid fa-chevron-left"></i>
-      <a class="gallery-a" href="photos.html"> გალერეა</a>
-      <h2 class="main-title">
+    <div class="aboutSection">
+    <div class="AboutUsContainer ">
+      <div class="serviceNavigation">
+        <i class="fa-solid fa-chevron-left"></i>
+        <a href="photos.html">გალერეა </a>
+      </div>
+      <h2 class="aboutUsSectionTitle uppercase">
         "პიროვნული განვითარების პროგრამა" 6-8 წლიანი ჯგუფი - გალერეა
       </h2>
       <!-- <div class="" -->
@@ -206,53 +210,32 @@
         </div>
       </div>
     </div>
+    </div>
+    
+    </body>
 
-    <footer>
+    <footer class="footer">
       <div class="footer-block">
         <div class="ftr-left-block">
-          <img
-            class="logo-footer"
-            src="images/279563310_540949714217207_4094088807898975909_n-removebg-preview.png"
-            alt="logo"
-          />
-          <!-- <h3 class="footer-title">კარპე დიემ</h3> -->
-        </div>
-        <div class="ftr-middle-block">
-          <h4 class="ftr-title">გამოგვყევით:</h4>
-          <div class="icons">
-            <div class="ftr-icon-block">
-              <a
-                href="https://www.facebook.com/%E1%83%91%E1%83%90%E1%83%95%E1%83%A8%E1%83%95%E1%83%97%E1%83%90-%E1%83%9E%E1%83%98%E1%83%A0%E1%83%9D%E1%83%95%E1%83%9C%E1%83%A3%E1%83%9A%E1%83%98-%E1%83%92%E1%83%90%E1%83%9C%E1%83%95%E1%83%98%E1%83%97%E1%83%90%E1%83%A0%E1%83%94%E1%83%91%E1%83%98%E1%83%A1-%E1%83%AA%E1%83%94%E1%83%9C%E1%83%A2%E1%83%A0%E1%83%98-Carpe-diem%E1%83%99%E1%83%90%E1%83%A0%E1%83%9E%E1%83%94-%E1%83%93%E1%83%98%E1%83%94%E1%83%9B-830945730579455"
-                target="_blank"
-              >
-                <i class="fa-brands fa-facebook ftr-icon"></i>
-              </a>
-            </div>
-            <div class="ftr-icon-block">
-              <a href="#" target="_blank">
-                <i class="fa-brands fa-instagram ftr-icon"></i>
-              </a>
-            </div>
-          </div>
+          <img class="logo-footer" src="images/logo.png" alt="logo" />
         </div>
         <div class="ftr-right-block">
-          <h4 class="ftr-title contact-title">საკონტაქტო ინფორმაცია:</h4>
           <div class="contact-info">
+            <h4 class="ftr-title contact-title uppercase">კონტაქტი</h4>
             <div class="contact-icons">
-              <i class="fa-regular fa-envelope"></i>
+              <!-- <i class="fa-regular fa-envelope"></i> -->
               <a class="contact-word" target="_blank" href="Info@carpe-diem.ge">
                 Info@carpe-diem.ge</a
               >
             </div>
             <div class="contact-icons">
-              <i class="fa-solid fa-phone"></i>
+              <!-- <i class="fa-solid fa-phone"></i> -->
               <a href="tel:+995577385697" target="_blank" class="contact-word"
                 >+995 550 05 65 23</a
               >
-            
             </div>
             <div class="contact-icons">
-              <i class="fa-solid fa-location-dot"></i>
+              <!-- <i class="fa-solid fa-location-dot"></i> -->
               <a
                 href="https://goo.gl/maps/dWBHEqVwXFrsVSw4A"
                 target="_blank"
@@ -262,11 +245,12 @@
               </a>
             </div>
           </div>
+          <img class="logo-mob" src="images/black.png" alt="logo" />
         </div>
       </div>
       <div class="bottom-footer">
-        <h2 class="ftr-bottom-text">
-          Copyright &copy by Carpe Diem <span id="year"></span>
+        <h2 class="copyRightText uppercase">
+          &copy; 2025 Carpe Diem. ყველა უფლება დაცულია.
         </h2>
       </div>
     </footer>

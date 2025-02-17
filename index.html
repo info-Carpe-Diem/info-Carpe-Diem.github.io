@@ -90,6 +90,7 @@
 
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/resposive.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
@@ -105,6 +106,25 @@
       href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
     />
     <link rel="stylesheet" href="css/resposive.css" />
+    <style>
+      @font-face {
+        font-family: "NotoSansGeorgian";
+        src: url("fonts/fonts/NotoSansGeorgian-Regular.ttf") format("truetype");
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      /* Apply the custom font globally */
+      body {
+        font-family: "NotoSansGeorgian";
+      }
+
+      /* Apply uppercase transformation only where needed */
+      .uppercase {
+        text-transform: uppercase;
+        font-feature-settings: "case" on;
+      }
+    </style>
     <!-- Meta Pixel Code -->
     <script>
       !(function (f, b, e, v, n, t, s) {
@@ -147,11 +167,7 @@
       <div class="header-block">
         <div class="logo">
           <a class="logo-link" href="index.html">
-            <img
-              class="logo-img"
-              src="images/279563310_540949714217207_4094088807898975909_n-removebg-preview.png"
-              alt="logo"
-            />
+            <img class="logo-img" src="images/logo.png" alt="logo" />
           </a>
         </div>
         <!-- Navigation bar -->
@@ -159,35 +175,36 @@
         <nav class="nav-block">
           <ul class="nav-ul">
             <li class="nav-li">
-              <a class="nav-a active" href="index.html"> მთავარი </a>
+              <a class="nav-a uppercase active uppercase" href="index.html">
+                მთავარი
+              </a>
             </li>
 
             <li class="nav-li">
-              <a class="nav-a" href="aboutus.html"> ჩვენს შესახებ </a>
-            </li>
-
-            <!-- <li class="nav-li">
-              <a class="nav-a" href="service.html"> სერვისები </a>
-            </li> -->
-            <li class="nav-li">
-              <a class="nav-a" href="service.html"> სერვისები</a>
+              <a class="nav-a uppercase" href="aboutus.html"> ჩვენ შესახებ </a>
             </li>
             <li class="nav-li">
-              <a class="nav-a" href="team.html"> გუნდი</a>
-            </li>
-
-            <li class="nav-li">
-              <a class="nav-a" href="photos.html"> გალერეა </a>
+              <a class="nav-a uppercase uppercase" href="service.html">
+                სერვისები</a
+              >
             </li>
             <li class="nav-li">
-              <a class="nav-a" href="video.html"> ვიდეო </a>
+              <a class="nav-a uppercase" href="projects.html">პროექტები </a>
             </li>
             <li class="nav-li">
-              <a class="nav-a" href="article.html"> სტატიები </a>
+              <a class="nav-a uppercase" href="team.html"> გუნდი</a>
             </li>
 
             <li class="nav-li">
-              <a class="nav-a" href="contact.html"> კონტაქტი </a>
+              <a class="nav-a uppercase" href="photos.html"> გალერეა </a>
+            </li>
+
+            <li class="nav-li">
+              <a class="nav-a uppercase" href="article.html"> სტატიები </a>
+            </li>
+
+            <li class="contactBtn">
+              <a class="BtnTxt uppercase" href="contact.html"> კონტაქტი </a>
             </li>
           </ul>
           <div class="humburger">
@@ -198,138 +215,308 @@
         </nav>
       </div>
     </header>
+    <div class="mainContainer">
+      <div class="subContainer">
+        <div class="container">
+          <!-- brief infomation about the origanization -->
+          <div>
+            <h1 class="mainText">"კარპე დიემ/Carpe Diem"-</h1>
+            <h2 class="subText resText">
+              სანდო სივრცე, ბავშვების მენტალური და ემოციური კეთილდღეობისთვის
+            </h2>
 
-    <div class="container">
-      <!-- brief infomation about the origanization -->
+            <a href="aboutus.html" class="ReadMoreButton uppercase"
+              >გაიგეთ მეტი</a
+            >
+            <svg
+              class="svg"
+              width="1440"
+              height="741"
+              viewBox="0 0 1440 741"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M858.719 171.569C639.011 277.958 501 513 224.038 414.43C-8.14805 308.459 -26.5358 587.028 -150.603 564.394C-168.071 561.19 -182.515 551.672 -195.328 538.163C-186.479 556.41 -175.139 571.427 -159.465 581.586C-48.2936 653.728 25.4618 407.797 227.263 588.864C669.069 985.34 1084.56 464.157 1457.07 580.414L1595 0.5C1356.2 98.276 1131.3 39.6054 858.719 171.569Z"
+                fill="#F7F7F7"
+                fill-opacity="0.8"
+                style="
+                  fill: #f7f7f7;
+                  fill: color(display-p3 0.9686 0.9686 0.9686);
+                  fill-opacity: 0.8;
+                "
+              />
+            </svg>
+          </div>
+          <div class="image-container">
+            <img class="test" src="/images/cover.jpg" />
+            <div class="overlayImg"></div>
+            <a href="aboutus.html" class="ReadMoreButtonRes uppercase"
+              >გაიგეთ მეტი</a
+            >
+          </div>
 
-      <h1 class="main-title real-title">
-        არაფორმალური განათლებისა და პიროვნული განვითარების ცენტრი "კარპე დიემ"
-      </h1>
-      <div class="swiper">
-        <!-- Additional required wrapper -->
-        <div class="swiper-wrapper">
-          <!-- Slides -->
+          <!-- <div class="swiper-wrapper">
+        
           <div class="swiper-slide">
             <div class="slider-block">
               <a href="ClassService.html">
                 <img
                   class="slider-img"
-                  src="images/ClassService.jpg"
+                  src="images/Service/DALL·E 2025-01-29 17.19.14 - A bright and creative art therapy session with a young child and a therapist sitting at a table filled with art supplies such as paints, colored penci.webp"
                   alt="children"
               /></a>
-              <a href="ClassService.html" class="service-title">"კლასის წრე"</a>
+              <a href="ClassService.html" class="service-title">"არტ თერაპია"</a>
             </div>
           </div>
           <div class="swiper-slide">
             <div class="slider-block">
               <a href="service1.html">
-                <img class="slider-img" src="images/9-11.jpg" alt="children"
+                <img class="slider-img" src="images/Service/assassment.webp" alt="children"
               /></a>
               <a href="service1.html" class="service-title"
-                >პიროვნული განვითარების პროგრამა 6-18 წლამდე ბავშვებისა და
-                მოზარდებისთვის</a
+                >ადრეული განვითარების შეფასება</a
               >
             </div>
           </div>
           <div class="swiper-slide">
             <div class="slider-block">
               <a href="service2.html">
-                <img class="slider-img" src="images/5-6.jpg" alt="children"
+                <img class="slider-img" src="images/Service/geshtaltTherapy.webp" alt="children"
               /></a>
               <a href="service2.html" class="service-title"
-                >სასკოლო მზაობის პროგრამა 5-6 წლამდე ბავშვებისთვის</a
+                >გეშტალტ თერაპია</a
               >
             </div>
           </div>
           <div class="swiper-slide">
             <div class="slider-block">
               <a href="service7.html">
-                <img class="slider-img" src="images/art.jpg" alt="art"
+                <img class="slider-img" src="images/Service/conlsulting.webp" alt="art"
               /></a>
-              <a href="service7.html" class="service-title">არტ-თერაპია</a>
+              <a href="service7.html" class="service-title">მშობელთა კონსულტაცია</a>
             </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="slider-block">
-              <a href="service8.html">
-                <img class="slider-img" src="images/დრამა.jpg" alt="chidren"
-              /></a>
-              <a href="service8.html" class="service-title">მითოდრამა</a>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="slider-block">
-              <a href="service3.html">
-                <img
-                  class="slider-img"
-                  src="images/299084712_1805862276421124_8646586162099327427_n.jpg"
-                  alt="children"
-              /></a>
-              <a href="service3.html" class="service-title"
-                >საზაფხულო/საზამთრო ბანაკი 9-15 წლამდე ბავშვებისა და
-                მოზარდებისთვის</a
-              >
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="slider-block">
-              <a href="service4.html">
-                <img class="slider-img" src="images/circle.jpg" alt="children"
-              /></a>
-              <a href="service4.html" class="service-title">შეხვედრები წრეში</a>
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="slider-block">
-              <a href="service5.html">
-                <img class="slider-img" src="images/individual.jpg" alt="room"
-              /></a>
-              <a href="service5.html" class="service-title"
-                >ბავშვთა/მშობელთა ინდივიდუალური კონსულტაცია</a
-              >
-            </div>
-          </div>
-          <div class="swiper-slide">
-            <div class="slider-block">
-              <a href="service6.html">
-                <img
-                  class="slider-img"
-                  src="images/training.jpg"
-                  alt="Training-room"
-              /></a>
-              <a href="service6.html" class="service-title"
-                >ტრენინგები/სამუშაო შეხვედრები</a
-              >
-            </div>
-          </div>
+          </div>   
+        </div> -->
         </div>
       </div>
-      <h2 class="main-title">ვინ ვართ ჩვენ?</h2>
-      <div class="main-text-box">
-        <p class="main-text">
-          პიროვნული განვითარების ცენტრი "კარპე დიემ" დაარსდა 2019 წელს. პირველ
-          ეტაპზე, "კარპე დიემ"-ის სერვისები განკუთვნილი იყო მხოლოდ ბავშვებისა და
-          მოზარდებისთვის.
-        </p>
 
-        <p class="main-text">
-          2022 წლიდან „კარპე დიემ"-ის არსებულ სერვისებს დაემატა სხვადასხვა
-          ტრენინგ-მოდულები და სამუშაო შეხვედრები მშობლებისთვის, განათლებაში
-          მომუშავე ადამიანებისა და სხვა დაინტერესებული პირებისთვის.
-          შემოთავაზებული სერვისები ტრენინგის მონაწილეებს დაეხმარებათ ბავშვის
-          განვითარებისა და განვითარების თანმდევი პროცესების შესახებ ცნობიერების
-          ამაღლებასა და კომპეტენციების გაზრდაში.
-        </p>
+      <!-- our team -->
+      <div class="teamBlock">
+        <div class="teamSubBlock">
+          <svg
+            class="teamLogoSvg"
+            width="614"
+            height="132"
+            viewBox="0 0 614 132"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M335.233 77.9017C342.724 102.209 315.102 98.4855 300.706 91.4969C251.121 62.0898 253.812 -2.46797 278.71 -47.0972C327.854 -121.592 419.545 -134.357 497.756 -99.1191C591.951 -48.757 629.92 50.4384 609.833 152.189C574.632 287.671 451.976 366.282 313.701 361.128C129.37 346.004 3.4376 192.964 0.977647 15.2985C0.966615 14.2721 1.02177 1.47408 0.547431 9.22711C-7.48327 146.238 73.5628 275.703 196.241 336.701C339.425 400.876 503.977 362.406 589.557 227.951C646.026 126.571 637.797 9.00873 554.908 -75.6306C485.677 -137.185 393.941 -154.188 311.494 -107.32C246.929 -63.6625 215.413 11.1272 250.106 84.0059C279.239 133.407 337.175 161.22 390.411 129.694C421.674 106.916 426.77 78.0655 418.32 42.8273C411.591 11.0616 446.902 26.7316 459.764 38.5359C499.907 81.4725 484.496 143.661 449.351 184.26C387.19 246.525 296.988 245.335 225.087 200.116C129.094 130.786 108.752 11.6513 156.826 -92.4471C222.958 -217.271 361.587 -268.834 496.939 -234.699C614.024 -200.477 694.122 -114.418 731.032 -1.63806C732.367 2.43501 732.146 1.11371 731.418 -1.83463C698.976 -131.322 585.906 -228.213 453.962 -248.753C303.872 -265.995 164.217 -182.994 126.568 -34.6486C105.763 73.6758 148.387 177.96 249.245 229.632C329.596 264.03 416.941 252.072 475.693 185.09C518.561 127.598 523.337 52.1528 469.229 -9.15527e-05C428.976 -32.3773 370.335 -37.6297 337.307 7.49088C322.614 32.3553 326.078 52.3822 335.233 77.9017Z"
+              fill="#231F20"
+              fill-opacity="0.3"
+              style="
+                fill: #231f20;
+                fill: color(display-p3 0.1373 0.1216 0.1255);
+                fill-opacity: 0.3;
+              "
+            />
+          </svg>
+          <svg
+            class="teamLogoSvg"
+            width="614"
+            height="132"
+            viewBox="0 0 614 132"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M335.233 77.9017C342.724 102.209 315.102 98.4855 300.706 91.4969C251.121 62.0898 253.812 -2.46797 278.71 -47.0972C327.854 -121.592 419.545 -134.357 497.756 -99.1191C591.951 -48.757 629.92 50.4384 609.833 152.189C574.632 287.671 451.976 366.282 313.701 361.128C129.37 346.004 3.4376 192.964 0.977647 15.2985C0.966615 14.2721 1.02177 1.47408 0.547431 9.22711C-7.48327 146.238 73.5628 275.703 196.241 336.701C339.425 400.876 503.977 362.406 589.557 227.951C646.026 126.571 637.797 9.00873 554.908 -75.6306C485.677 -137.185 393.941 -154.188 311.494 -107.32C246.929 -63.6625 215.413 11.1272 250.106 84.0059C279.239 133.407 337.175 161.22 390.411 129.694C421.674 106.916 426.77 78.0655 418.32 42.8273C411.591 11.0616 446.902 26.7316 459.764 38.5359C499.907 81.4725 484.496 143.661 449.351 184.26C387.19 246.525 296.988 245.335 225.087 200.116C129.094 130.786 108.752 11.6513 156.826 -92.4471C222.958 -217.271 361.587 -268.834 496.939 -234.699C614.024 -200.477 694.122 -114.418 731.032 -1.63806C732.367 2.43501 732.146 1.11371 731.418 -1.83463C698.976 -131.322 585.906 -228.213 453.962 -248.753C303.872 -265.995 164.217 -182.994 126.568 -34.6486C105.763 73.6758 148.387 177.96 249.245 229.632C329.596 264.03 416.941 252.072 475.693 185.09C518.561 127.598 523.337 52.1528 469.229 -9.15527e-05C428.976 -32.3773 370.335 -37.6297 337.307 7.49088C322.614 32.3553 326.078 52.3822 335.233 77.9017Z"
+              fill="#231F20"
+              fill-opacity="0.3"
+              style="
+                fill: #231f20;
+                fill: color(display-p3 0.1373 0.1216 0.1255);
+                fill-opacity: 0.3;
+              "
+            />
+          </svg>
 
-        <p class="main-text">
-          გარდა ამისა, "კარპე დიემ"-ის სერვისებს დაემატა საზაფხულო და ზამთრის
-          ბანაკი 9-დან 15 წლამდე ბავშვებისა და მოზარდებისთვის.
-        </p>
+          <h2 class="teamText uppercase">
+            შემოგვიერთდით თქვენი შვილების ჯანსაღი განვითარების ფორმირებაში.
+          </h2>
+        </div>
+      </div>
+      <!-- services -->
+      <div class="serviceSection">
+        <svg
+          class="serviceSvg"
+          width="1440"
+          height="454"
+          viewBox="0 0 1440 454"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M661.96 354.128C377.042 252.57 201.906 20.2792 -162.566 125.333C-468.647 236.779 -486.341 -41.8415 -649.119 -16.3393C-672.037 -12.7314 -691.144 -2.86874 -708.209 10.9562C-696.22 -7.52418 -681.048 -22.8249 -660.316 -33.3589C-513.276 -108.158 -422.424 136.506 -154.369 -49.4695C432.487 -456.692 963.993 55.8953 1453.83 -69.0554L1621 508.693C1310.91 416.198 1015.44 480.098 661.96 354.128Z"
+            fill="#F7F7F7"
+            fill-opacity="0.6"
+            style="
+              fill: #f7f7f7;
+              fill: color(display-p3 0.9686 0.9686 0.9686);
+              fill-opacity: 0.6;
+            "
+          />
+        </svg>
+
+        <h2 class="mainTitle uppercase">სერვისები</h2>
+        <div class="serviceBlock">
+          <a class="serviceButton uppercase"> არტ თერაპია</a>
+
+          <a class="serviceButton uppercase">გეშტალტ თერაპია</a>
+          <a class="serviceButton uppercase">მშობელთა კონსულტაცია</a>
+          <a class="serviceButton uppercase">ადრეული შეფასება</a>
+        </div>
+        <a class="readMoreText uppercase" href="service.html"
+          >იხილეთ მეტი <img src="./images/svg/Vector.svg"
+        /></a>
+      </div>
+      <div class="teamSection">
+        <h1 class="mainTitle uppercase">ჩვენი თერაპევტები</h1>
+        <div class="teamPhotoSec">
+          <svg
+            class="teamSvg"
+            width="577"
+            height="261"
+            viewBox="0 0 577 261"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M-245 0H327C465.071 0 577 111.929 577 250V295H-245V0Z"
+              fill="#5A9E7C"
+              fill-opacity="0.1"
+              style="
+                fill: #5a9e7c;
+                fill: color(display-p3 0.3529 0.6196 0.4863);
+                fill-opacity: 0.1;
+              "
+            />
+          </svg>
+
+          <svg
+            class="teamSvgTop"
+            width="562"
+            height="209"
+            viewBox="0 0 562 209"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M822 209H250C111.929 209 0 97.0712 0 -41V-144H822V209Z"
+              fill="#333632"
+              fill-opacity="0.1"
+              style="
+                fill: #333632;
+                fill: color(display-p3 0.2 0.2118 0.1961);
+                fill-opacity: 0.1;
+              "
+            />
+          </svg>
+
+          <div class="teamMainBlock">
+            <div class="teamPhotos">
+              <img
+                class="person-img"
+                src="images/khatia.JPG"
+                alt="psychologist"
+              />
+              <h3 class="teamTitle uppercase">ხატია ფიცხელაური</h3>
+              <h3 class="teamSubTitle">ბავშვთა გეშტალტ თერაპევტი</h3>
+            </div>
+            <div class="teamPhotos">
+              <img
+                class="person-img"
+                src="images/qeti.jfif"
+                alt="psychologist"
+              />
+              <h3 class="teamTitle uppercase">ქეთი აბულაძე</h3>
+              <h3 class="teamSubTitle">ადრეული განვითარების სპეციალისტი</h3>
+            </div>
+            <div class="teamPhotos">
+              <img
+                class="person-img"
+                src="images/mari.JPG"
+                alt="psychologist"
+              />
+              <h3 class="teamTitle uppercase">მარიამ გოჩაშვილი</h3>
+              <h3 class="teamSubTitle">არტ თერაპევტი</h3>
+            </div>
+          </div>
+          <a class="readMoreText uppercase" href="team.html"
+            >იხილეთ მეტი <img src="./images/svg/Vector.svg"
+          /></a>
+        </div>
       </div>
 
-      <!-- Frequently asked questions -->
+      <!-- anout us -->
+      <div class="aboutUs">
+        <svg
+          class="aboutUsSvg"
+          width="702"
+          height="697"
+          viewBox="0 0 702 697"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M144.792 465.678C155.311 500.094 116.52 494.822 96.3027 484.927C26.6667 443.291 30.4467 351.886 65.4119 288.697C134.428 183.223 263.197 165.15 373.034 215.042C505.319 286.347 558.642 426.794 530.432 570.858C480.997 762.681 308.743 873.984 114.552 866.687C-144.317 845.273 -321.172 628.589 -324.627 377.041C-324.643 375.587 -324.565 357.467 -325.231 368.445C-336.509 562.432 -222.69 745.736 -50.4054 832.101C150.679 922.964 381.771 868.496 501.957 678.126C581.26 534.587 569.703 368.135 453.297 248.298C356.07 161.145 227.24 137.073 111.454 203.431C20.7798 265.243 -23.4805 371.135 25.2415 474.321C66.1555 544.266 147.519 583.644 222.283 539.009C266.187 506.758 273.344 465.91 261.477 416.018C252.027 371.042 301.617 393.228 319.68 409.942C376.055 470.734 354.413 558.783 305.056 616.267C217.759 704.425 91.0819 702.74 -9.8941 638.716C-144.704 540.555 -173.271 371.877 -105.758 224.488C-12.884 47.7552 181.802 -25.2511 371.888 23.0796C536.318 71.534 648.805 193.381 700.641 353.061C702.515 358.828 702.205 356.957 701.183 352.783C655.621 169.448 496.83 32.2634 311.531 3.18148C100.749 -21.2312 -95.3783 96.2868 -148.252 306.323C-177.47 459.695 -117.609 607.346 24.0331 680.507C136.876 729.209 259.541 712.279 342.05 617.442C402.252 536.04 408.96 429.221 332.972 355.38C276.442 309.539 194.087 302.102 147.705 365.986C127.07 401.191 131.934 429.546 144.792 465.678Z"
+            fill="#DFDFDF"
+            fill-opacity="0.3"
+            style="
+              fill: #dfdfdf;
+              fill: color(display-p3 0.8745 0.8745 0.8745);
+              fill-opacity: 0.3;
+            "
+          />
+        </svg>
 
-      <section class="bellow-section">
+        <h2 class="mainTitle uppercase">ვინ ვართ ჩვენ</h2>
+        <div class="aboutUsSection">
+          <p class="aboutUsText">
+            კეთილი იყოს თქვენი მობრძანება - "Carpe Diem/კარპე დიემ"-ში.
+          </p>
+          <p class="aboutUsText">
+            სანდო სივრცე, ბავშვების მენტალური და ემოციური კეთილდღეობისთვის.
+          </p>
+          <p class="aboutUsText">
+            კლინიკური და განათლების ფსიქოლოგების მიერ 2019 წელს დაფუძნებული
+            ორგანიზაცია, გთავაზობთ სხვადასხვა სახის თერაპიულ სერვისებს, 0-18
+            წლამდე ბავშვების, მოზარდებისა და მათი მშობლებისთვის.
+          </p>
+          <p class="aboutUsText">
+            ჩვენი მისია არის მენტალური და ემოციური კეთილდღეობის მხარდაჭერა და
+            ფსიქოგანათლების ხელშეწყობა. შემოგვიერთდით თქვენი შვილების ჯანსაღი
+            განვითარების ფორმირებაში
+          </p>
+          <p class="aboutUsText">. . .</p>
+        </div>
+        <a class="readMoreText uppercase" href="aboutus.html"
+          >იხილეთ მეტი <img src="./images/svg/Vector.svg"
+        /></a>
+      </div>
+    </div>
+
+    <!-- Frequently asked questions -->
+
+    <!-- <section class="bellow-section">
         <h2 class="main-title">ხშირად დასმული კითხვები:</h2>
         <div class="question-box">
           <button class="question-btn">
@@ -367,15 +554,7 @@
             ხანგრძლივობა - 1სთ. 30წთ.
           </p>
         </div>
-        <!-- <div class="question-box">
-          <button class="question-btn">
-            შესაძლებელია თუ არა ერთჯერადი ვიზიტი?<i
-              class="fa-sharp fa-solid fa-angle-down"
-            ></i>
-          </button>
-          <p class="answer-box">
-            დიახ, ერთჯერადი ვიზიტი დასაშვებია და ღირებულება შეადგენს 35 ლარს.
-          </p> ~</div>-->
+    
 
         <div class="question-box">
           <button class="question-btn">
@@ -426,20 +605,15 @@
             >
           </p>
         </div>
-      </section>
-    </div>
+      </section> -->
 
     <!-- Footer block -->
-    <footer>
+    <footer class="footer">
       <div class="footer-block">
         <div class="ftr-left-block">
-          <img
-            class="logo-footer"
-            src="images/279563310_540949714217207_4094088807898975909_n-removebg-preview.png"
-            alt="logo"
-          />
+          <img class="logo-footer" src="images/logo.png" alt="logo" />
         </div>
-        <div class="ftr-middle-block">
+        <!-- <div class="ftr-middle-block">
           <h4 class="ftr-title">გამოგვყევით:</h4>
           <div class="icons">
             <div class="ftr-icon-block">
@@ -456,25 +630,24 @@
               </a>
             </div>
           </div>
-        </div>
+        </div> -->
         <div class="ftr-right-block">
-          <h4 class="ftr-title contact-title">საკონტაქტო ინფორმაცია:</h4>
           <div class="contact-info">
+            <h4 class="ftr-title contact-title uppercase">კონტაქტი</h4>
             <div class="contact-icons">
-              <i class="fa-regular fa-envelope"></i>
+              <!-- <i class="fa-regular fa-envelope"></i> -->
               <a class="contact-word" target="_blank" href="Info@carpe-diem.ge">
                 Info@carpe-diem.ge</a
               >
             </div>
             <div class="contact-icons">
-              <i class="fa-solid fa-phone"></i>
+              <!-- <i class="fa-solid fa-phone"></i> -->
               <a href="tel:+995577385697" target="_blank" class="contact-word"
                 >+995 550 05 65 23</a
               >
-            
             </div>
             <div class="contact-icons">
-              <i class="fa-solid fa-location-dot"></i>
+              <!-- <i class="fa-solid fa-location-dot"></i> -->
               <a
                 href="https://goo.gl/maps/dWBHEqVwXFrsVSw4A"
                 target="_blank"
@@ -484,11 +657,12 @@
               </a>
             </div>
           </div>
+          <img class="logo-mob" src="images/black.png" alt="logo" />
         </div>
       </div>
       <div class="bottom-footer">
-        <h2 class="ftr-bottom-text">
-          Copyright & copy by Carpe Diem <span id="year"></span>
+        <h2 class="copyRightText uppercase">
+          &copy; 2025 Carpe Diem. ყველა უფლება დაცულია.
         </h2>
       </div>
     </footer>

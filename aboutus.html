@@ -5,8 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/resposive.css" />
+  
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/resposive.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
@@ -23,38 +24,39 @@
       <div class="header-block">
         <div class="logo">
           <a class="logo-link" href="index.html">
-            <img
-              class="logo-img"
-              src="images/279563310_540949714217207_4094088807898975909_n-removebg-preview.png"
-              alt="logo"
-            />
+            <img class="logo-img" src="images/logo.png" alt="logo" />
           </a>
         </div>
+        <!-- Navigation bar -->
         <nav class="nav-block">
           <ul class="nav-ul">
             <li class="nav-li">
-              <a class="nav-a" href="index.html"> მთავარი </a>
+              <a class="nav-a uppercase" href="index.html"> მთავარი </a>
             </li>
             <li class="nav-li">
-              <a class="nav-a active" href="aboutus.html"> ჩვენს შესახებ </a>
+              <a class="nav-a uppercase active" href="aboutus.html">
+                ჩვენ შესახებ
+              </a>
             </li>
             <li class="nav-li">
-              <a class="nav-a" href="service.html"> სერვისები </a>
+              <a class="nav-a uppercase uppercase" href="service.html">
+                სერვისები</a
+              >
             </li>
             <li class="nav-li">
-              <a class="nav-a" href="team.html"> გუნდი </a>
+              <a class="nav-a uppercase" href="projects.html">პროექტები</a>
             </li>
             <li class="nav-li">
-              <a class="nav-a" href="#"> გალერეა </a>
+              <a class="nav-a uppercase" href="team.html"> გუნდი </a>
             </li>
             <li class="nav-li">
-              <a class="nav-a" href="#"> ვიდეო </a>
+              <a class="nav-a uppercase" href="photos.html"> გალერეა </a>
             </li>
             <li class="nav-li">
-              <a class="nav-a" href="video.html"> სტატიები </a>
+              <a class="nav-a uppercase" href="video.html"> სტატიები </a>
             </li>
-            <li class="nav-li">
-              <a class="nav-a" href="contact.html"> კონტაქტი </a>
+            <li class="contactBtn">
+              <a class="BtnTxt uppercase" href="contact.html"> კონტაქტი </a>
             </li>
           </ul>
           <div class="humburger">
@@ -65,86 +67,145 @@
         </nav>
       </div>
     </header>
-    <div class="container">
-      <!--  Carpe Diem Team members -->
+    <div class="aboutSection">
+      <div class="AboutUsContainer">
+        <!--  Carpe Diem Team members -->
 
-      <h2 class="question">"კარპე დიემ"-ის დამფუძნებლები</h2>
-      <div class="team1">
-        <!--  Nino Usenashvili profile -->
+        <h2 class="aboutUsSectionTitle uppercase">
+          "კარპე დიემ"-ის დამფუძნებლები
+        </h2>
+        <div class="team1">
+          <!--  Nino Usenashvili profile -->
 
-        <div class="person">
-          <img class="person-img" src="images/uska.jpg" alt="psychologist" />
+          <!-- <div class="person">
+            <img class="person-img" src="images/uska.jpg" alt="psychologist" />
 
-          <h3 class="name">ნინო უსენაშვილი</h3>
-          <h3 class="person-profession">კლინიკური ფსიქოლოგი</h3>
-          <span class="person-span"></span>
-          <!-- <p class="person-text">
-            "არასდროს არის ადრე და არასდროს არის გვიან გაიგო მეტი საკუთარი თავის
-            შესახებ"
-          </p> -->
-          <button class="person-name Uska">იხ. მეტი</button>
+            <h3 class="name">ნინო უსენაშვილი</h3>
+            <h3 class="person-profession">კლინიკური ფსიქოლოგი</h3>
+            <span class="person-span"></span>
+            <button class="person-name Uska">იხ. მეტი</button>
+          </div> -->
+          <div class="teamPhotos">
+            <img class="person-img" src="images/uska.jpg" alt="psychologist" />
+            <h3 class="teamTitle uppercase">ნინო უსენაშვილი</h3>
+            <h3 class="teamSubTitle">კლინიკური ფსიქოლოგი</h3>
+
+            <div class="ReadMoreButton uppercase Uska">იხ. მეტი</div>
+          </div>
+          <div class="teamPhotos">
+            <img class="person-img" src="images/nino.jpg" alt="psychologist" />
+            <h3 class="teamTitle uppercase">ნინო მჟავანაძე</h3>
+            <h3 class="teamSubTitle">განათლების ფსიქოლოგი</h3>
+            <div class="ReadMoreButton uppercase Nino">იხ. მეტი</div>
+          </div>
+
+          <!--  Nino Mzhavanadze profile -->
+
+          <!-- <div class="person">
+            <img class="person-img" src="images/nino.jpg" alt="psychologist" />
+            <h3 class="name">ნინო მჟავანაძე</h3>
+            <h3 class="person-profession">განათლების ფსიქოლოგი</h3>
+            <span class="person-span"></span>
+            <button class="person-name Nino">იხ. მეტი</button>
+          </div> -->
         </div>
+        <div class="overlay"></div>
+        <!-- Who are we  -->
 
-        <!--  Nino Mzhavanadze profile -->
+        <h2 class="aboutUsSectionTitle uppercase">ჩვენ შესახებ</h2>
+        <h2 class="mainTitle uppercase">რას ნიშნავს "კარპე დიემ"?</h2>
+        <p class="main-text">
+          “Carpe Diem” ლათინური სიტყვა არის და ნიშნავს “დაიჭირე წამი“, იცხოვრე
+          დღევანდელი დღით.
+        </p>
+        <h2 class="mainTitle uppercase">რატომ "კარპე დიემ"?</h2>
+        <p class="main-text">
+          ფრაზა "კარპე დიემ" მოგვიწოდებს, რომ კონცენტრირებული ვიყოთ აწმყო
+          მომენტებზე. მრავალი კვლევა ადასტურებს, რომ აწმყო დროზე ფოკუსირება
+          ფსიქიკურ კეთილდღეობასა და ჯანსაღ ფუნქციონირებას მნიშვნელოვნად
+          განაპირობებს.
+        </p>
+        <h2 class="mainTitle uppercase">"კარპე დიემ"-ის ისტორია</h2>
+        <p class="main-text">
+          პიროვნული განვითარების ცენტრი "კარპე დიემ" დაარსდა 2019 წელს.
+          ორგანიზაციის მიზანს წარმოადგენდა "კარპე დიემ" გამხდარიყო ბავშვების,
+          მოზარდების და მშობლების მხარდაჭერის სივრცე, ყოველდღიურ ცხოვრებისეულ
+          გამოწვევებში.
+        </p>
+        <p class="main-text">
+          "კარპე დიემ"-ის დაარსების დღიდან ჩვენი მისია არის მივაწოდოთ
+          მომხმარებელს მაღალი ხარისხის, ხელმისაწვდომი პროექტები და ხელი შევუწყოთ
+          ბავშვების შემეცნებით და სოციალური განვითარებას. ასევე,
+          ორგანიზაციისთვის ყოველთვის მნიშვნელოვანი იყო მშობლების ემოციური
+          მხარდაჭერა.
+        </p>
 
-        <div class="person">
-          <img class="person-img" src="images/nino.jpg" alt="psychologist" />
-          <h3 class="name">ნინო მჟავანაძე</h3>
-          <h3 class="person-profession">განათლების ფსიქოლოგი</h3>
-          <span class="person-span"></span>
-          <!-- <p class="person-text">
-            "ბედნიერებისკენ მიმავალი გზა საკუთარი თავისა და სამყაროს შეცნობასა
-            და მათ მიმღებლობაზე გადის"
-          </p> -->
-          <button class="person-name Nino">იხ. მეტი</button>
-        </div>
-      </div>
-      <div class="overlay"></div>
-      <!-- Who are we  -->
+        <p class="main-text">
+          ამ მიზნის მისაღწევად ჩვენ შევიმუშავეთ სხვადასხვა საგანმანათლებლო და
+          განვითარების პროგრამები:
+        </p>
+        <ol class="main-text">
+          <li>
+            <i class="fa-regular fa-circle-dot"></i>
+            " სასკოლო მზაობის პროგრამა" - შექმნილია იმისთვის, რომ დაეხმაროს
+            ახალგაზრდა მოსწავლეებს მარტივად მოახდინონ ადაპტაცია სასკოლო
+            გარემოში.
+          </li>
+          <li>
+            <i class="fa-regular fa-circle-dot"></i>
+            "პიროვნული განვითარების პროგრამა" - ბავშვებსა და მოზარდებში ემოციური
+            ინტელექტის, სოციალური უნარებისა და ჯანსაღი თვითშეფასების
+            განვითარების ხელშეწყობა.
+          </li>
+          <li>
+            <i class="fa-regular fa-circle-dot"></i>
+            "საზაფხულო ბანაკები" - სწავლის, პიროვნული ზრდის, დამოუკიდებელი
+            უნარებისა და ჯანსაღი ურთიერთობების ჩამოყალიბებისთვის შექმნილი
+            სივრცე.
+          </li>
+          <li>
+            <i class="fa-regular fa-circle-dot"></i>
+            "ფსიქოსაგანმანათლებლო ტრენინგები" – ნებისმიერი დაინტერესებული
+            პირისთვის ფსიქოგანათლების ამაღლების შესაძლებლობა სხვადასხვა აქტუალურ
+            თემებზე.
+          </li>
+        </ol>
+        <h2 class="mainTitle uppercase">"კარპე დიემ"-ის მისია</h2>
+        <p class="main-text">
+          "კარპე დიემ" -ის მისია უცვლელია: ვიყოთ პიროვნული ზრდის და მენტალური
+          ჯანმრთელობის მხარდაჭერის სივრცე ყველა ბავშვის, მოზარდისა და
+          მშობლისათვის.
+        </p>
 
-      <h2 class="main-title real-title">
-        არაფორმალური განათლებისა და პიროვნული განვითარების ცენტრი "კარპე დიემ"
-      </h2>
-      <h2 class="question">რას ნიშნავს "კარპე დიემ"?</h2>
-      <p class="question-answer">
-        “Carpe Diem” ლათინური სიტყვა არის და ნიშნავს “დაიჭირე წამი“, იცხოვრე
-        დღევანდელი დღით.
-      </p>
-      <h2 class="question">რატომ ჰქვია ცენტრს "კარპე დიემ"?</h2>
-      <p class="question-answer">
-        ფრაზა "კარპე დიემ" მოგვიწოდებს, რომ კონცენტრირებული ვიყოთ აწმყო
-        მომენტებზე. მრავალი კვლევა ადასტურებს, რომ აწმყო დროზე ფოკუსირება
-        ფსიქიკურ კეთილდღეობასა და ჯანსაღ ფუნქციონირებას მნიშვნელოვნად
-        განაპირობებს.
-      </p>
-      <h2 class="question">"კარპე დიემ"-ის მიზნები</h2>
-      <p class="question-answer">
-        „კარპე დიემ“ არის არაფორმალური განათლებისა და პიროვნული განვითარების
-        ცენტრი ბავშვებისა და მოზარდებისთვის. ორგანიზაციის მთავარი მიზანია,
-        შექმნას ინდივიდზე ორიენტირებული გარემო, რომელიც დაეხმარებათ მათ პიროვნულ
-        ზრდაში და ხელს შეუწყობს ფსიქოლოგიურ/ფსიქიკურ კეთილდღეობას.
-      </p>
-      <p class="question-answer">
-        ჩვენი მიზანია, ბავშვებს და მოზარდებს შევთავაზოთ სივრცე, სადაც მათ
-        ექნებათ შესაძლებლობა უკეთ გაიცნონ საკუთარი თავი, გააზიარონ ხედვები,
-        დამოკიდებულებები, ემოციები და დააგროვონ სოციალური ურთიერთობების
-        გამოცდილება.
-      </p>
-      <p class="question-answer">
-        ბავშვებსა და მოზარდებს ექნებათ საშუალება, სანდო და მხარდამჭერ გარემოში,
-        კვალიფიციური სპეციალისტების დახმარებით, გაიარონ გზა პიროვნული
-        განვითარებისკენ.
-      </p>
+        <h2 class="mainTitle uppercase">"კარპე დიემ"-ის საქმიანობა</h2>
+        <p class="main-text">
+          დროთა განმავლობაში, გაჩნდა მზარდი მოთხოვნა თერაპიულ სერვისებზე. ამის
+          საპასუხოდ, 2024 წლიდან "კარპე დიემ"-მა გადაწყვიტა გადასულიყო თერაპიულ
+          მომსახურებებზე. ამჟამად ორგანიზაცია ფოკუსირებულია ბავშვებისა და
+          მოზარდების მენტალურ ჯანმრთელობაზე და თერაპიულ პროცესებში მშობლების
+          ჩართულობაზე.
+        </p>
+        <p class="main-text">
+          ჩვენი სურვილია, თერაპიული პროექტების მიწოდება მოხდეს მაღალი ხარისხის
+          პროფესიონალურობით და მომხმარებელს შევთავაზოთ მაქსიმალურად
+          ხელმისაწვდომი ფასები.
+        </p>
+        <p class="main-text">
+          ორგანიზაციისთვის მნიშვნელოვანია თერაპიულ სერვისებში მშობლების
+          ჩართულობა. თერაპევტებსა და მშობლებს შორის თანამშრომლობითი მიდგომა
+          მეტად ეფექტურს ხდის თერაპიულ პროცესს.
+        </p>
+        <h2 class="mainTitle uppercase">"კარპე დიემ"-ის სამომავლო მიზნები</h2>
+        <p class="main-text">
+          მომავალში, ჩვენ ვგეგმავთ მომხმარებლისთვის მრავალფეროვანი პროექტების
+          შეთავაზებას, რათა შევქმნათ მეტი შესაძლებლობები მშობლების
+          ჩართულობისთვის და გავხსნათ კარები ფსიქოლოგიით დაინტერესებული
+          სტუდენტებისთვის, რათა მიიღონ პრაქტიკული გამოცდილება ამ სფეროში
+        </p>
 
-      <!-- Carpe Diem Vision -->
+        <!-- Carpe Diem Vision -->
 
-      <h2 class="question">"კარპე დიემ"-ის ხედვა</h2>
-      <p class="question-answer">
-        ჯანსაღ და მხარდამჭერ გარემოში საკუთარი თავის შეცნობის პროცესს და "აქ და
-        ამჟამად" ყოფნას მივყავართ პიროვნული განვითარებისკენ და გვაქცევს
-        საზოგადოების აქტიურ წევრად.
-      </p>
-      <h3 class="vision-title">ჩვენ გვჯერა რომ:</h3>
+        <!-- <h3 class="vision-title">ჩვენ გვჯერა რომ:</h3>
       <ul>
         <li class="our-vision">
           <i class="fa-sharp fa-solid fa-heart"></i>ყველა ბავშვი იმსახურებს
@@ -172,180 +233,264 @@
           <i class="fa-sharp fa-solid fa-heart"></i>ბედნიერება მხოლოდ ჩვენშია
           უბრალოდ უნდა ვისწავლოთ მისი დანახვა!
         </li>
-      </ul>
+      </ul> -->
 
-      <!-- modal- windows -->
+        <!-- modal- windows -->
 
-      <!-- Usenashvili Modal window -->
+        <!-- Usenashvili Modal window -->
+        <div class="modal-window uska-modal customScroll">
+          <svg
+            class="personSvg"
+            width="452"
+            height="364"
+            viewBox="0 0 452 364"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M335.233 74.9017C342.724 99.2092 315.102 95.4855 300.706 88.4969C251.121 59.0898 253.812 -5.46797 278.71 -50.0972C327.854 -124.592 419.545 -137.357 497.756 -102.119C591.951 -51.757 629.92 47.4384 609.833 149.189C574.632 284.671 451.976 363.282 313.701 358.128C129.37 343.004 3.4376 189.964 0.977647 12.2985C0.966615 11.2721 1.02177 -1.52592 0.547431 6.22711C-7.48327 143.238 73.5628 272.703 196.241 333.701C339.425 397.876 503.977 359.406 589.557 224.951C646.026 123.571 637.797 6.00873 554.908 -78.6306C485.677 -140.185 393.941 -157.188 311.494 -110.32C246.929 -66.6625 215.413 8.1272 250.106 81.0059C279.239 130.407 337.175 158.22 390.411 126.694C421.674 103.916 426.77 75.0655 418.32 39.8273C411.591 8.06165 446.902 23.7316 459.764 35.5359C499.907 78.4725 484.496 140.661 449.351 181.26C387.19 243.525 296.988 242.335 225.087 197.116C129.094 127.786 108.752 8.65134 156.826 -95.4471C222.958 -220.271 361.587 -271.834 496.939 -237.699C614.024 -203.477 694.122 -117.418 731.032 -4.63806C732.367 -0.564987 732.146 -1.88629 731.418 -4.83463C698.976 -134.322 585.906 -231.213 453.962 -251.753C303.872 -268.995 164.217 -185.994 126.568 -37.6486C105.763 70.6758 148.387 174.96 249.245 226.632C329.596 261.03 416.941 249.072 475.693 182.09C518.561 124.598 523.337 49.1528 469.229 -3.00009C428.976 -35.3773 370.335 -40.6297 337.307 4.49088C322.614 29.3553 326.078 49.3822 335.233 74.9017Z"
+              fill="#5A9E7C"
+              fill-opacity="0.15"
+              style="
+                fill: #5a9e7c;
+                fill: color(display-p3 0.3529 0.6196 0.4863);
+                fill-opacity: 0.15;
+              "
+            />
+          </svg>
+          <div class="modal-container">
+            <div class="modal-header">
+              <h3 class="person-profession uppercase">
+                „კარპე დიემ“-ის დამფუძნებლები"
+              </h3>
+              <svg
+                class="fa-regular fa-circle-xmark"
+                width="44"
+                height="44"
+                viewBox="0 0 44 44"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect
+                  width="44"
+                  height="44"
+                  rx="22"
+                  fill="white"
+                  style="fill: white; fill-opacity: 1"
+                />
+                <path
+                  d="M21.9936 23.3618L17.6351 27.7204C17.4402 27.9153 17.2187 28.0083 16.9706 27.9994C16.7226 27.9906 16.5011 27.8887 16.3062 27.6938C16.1113 27.4989 16.0139 27.273 16.0139 27.0161C16.0139 26.7592 16.1113 26.5333 16.3062 26.3384L20.6382 22.0064L16.2796 17.6478C16.0847 17.4529 15.9917 17.227 16.0006 16.9701C16.0094 16.7131 16.1113 16.4872 16.3062 16.2923C16.5011 16.0974 16.727 16 16.9839 16C17.2408 16 17.4667 16.0974 17.6616 16.2923L21.9936 20.6509L26.3522 16.2923C26.5471 16.0974 26.773 16 27.0299 16C27.2869 16 27.5128 16.0974 27.7077 16.2923C27.9026 16.4872 28 16.7131 28 16.9701C28 17.227 27.9026 17.4529 27.7077 17.6478L23.3491 22.0064L27.7077 26.365C27.9026 26.5598 28 26.7813 28 27.0294C28 27.2774 27.9026 27.4989 27.7077 27.6938C27.5128 27.8887 27.2869 27.9861 27.0299 27.9861C26.773 27.9861 26.5471 27.8887 26.3522 27.6938L21.9936 23.3618Z"
+                  fill="#292A2D"
+                  style="
+                    fill: #292a2d;
+                    fill: color(display-p3 0.1608 0.1647 0.1765);
+                    fill-opacity: 1;
+                  "
+                />
+              </svg>
+            </div>
 
-      <div class="modal-window uska-modal">
-        <div class="image-box">
-          <img class="modal-img" src="images/uska.jpg" alt="psychologist" />
-          <div class="person-title">
-            <h3 class="name">ნინო უსენაშვილი</h3>
-            <h3 class="person-profession">
-              არაფორმალური განათლებისა და პიროვნული განვითარების ცენტრი „კარპე
-              დიემ“-ის თანადამფუძნებელი
-            </h3>
+            <div class="image-box"> 
+              <div>    <img
+              class="person-img"
+              src="images/uska.jpg"
+              alt="psychologist"
+            /></div>
+          
+              <div class="person-title">
+                <h3 class="name uppercase">ნინო უსენაშვილი</h3>
+                <h2 class="subName">"კარპე დიემ"-ის თანადამფუძნებელი</h2>
+              </div>
+            </div>
+
+            <ul class="personal-ul">
+              <li class="name uppercase">განათლება</li>
+              <li class="person-li">
+                <img src="./images/svg/horizontal.svg" />ილიას სახელმწიფო
+                უნივერსიტეტი - კლინიკური ფსიქოლოგიის მაგისტრი
+              </li>
+              <li class="person-li">
+                <img src="./images/svg/horizontal.svg" />"გრონინგენის
+                უნივერსიტეტი" - გაცვლითი სამაგისტრო პროგრამა ფსიქოლოგიაში
+              </li>
+              <li class="person-li">
+                <img src="./images/svg/horizontal.svg" />ილიას სახელმწიფო
+                უნივერსიტეტი - გამოყენებითი ფსიქოლოგიის ბაკალავრი
+              </li>
+            </ul>
+
+            <ul class="personal-ul">
+              <li class="name uppercase">სამუშაო გამოცდილება</li>
+              <li class="person-li">
+                <img src="./images/svg/horizontal.svg" />"კარპე დიემ“ - ტრენერი (2019 წლიდან-დღემდე)
+              </li>
+              <li class="person-li">
+                <img src="./images/svg/horizontal.svg" />"ბავშვის განვითარების
+                ინსტიტუტი" - მოწვეული ფსიქოლოგი (2016-2023წ.)
+              </li>
+              <li class="person-li">
+                <img src="./images/svg/horizontal.svg" />ფსიქოლოგი და მკვლევარი
+                პროექტში - „აუტისტური სპექტრისა და ინტელექტუალური დარღვევის
+                მქონე მოზარდებთან მენტალიზაციაზე დაფუძნებული ბავშვთა და მოზარდთა
+                აბილიტაციის სტრატეგიის გამოყენებაში, მეთოდის ეფექტურობის
+                შეფასებასა და განვითარებაში“.
+              </li>
+
+              <li class="person-li">
+                <img src="./images/svg/horizontal.svg" />
+                არაფორმალური განათლების სივრცე „ბრეინ ჰაბი“ - მოწვეული ტრენერი
+                (2021 წელი)
+              </li>
+              <li class="person-li">
+                <img src="./images/svg/horizontal.svg" />აუტიზმის და სხვა
+                განვითარების დარღვევების მქონე ბავშვებთან და მოზარდებთან
+                მუშაობის 9 წლიანი გამოცდილება - საჯარო და კერძო საგანმანათლებლო
+                სისტემებში
+              </li>
+            </ul>
           </div>
-          <i class="fa-regular fa-circle-xmark"></i>
         </div>
+        <!--Mzhavanadze Modal window -->
+        <div class="modal-window nino-modal customScroll">
+          <svg
+            class="personSvg"
+            width="452"
+            height="364"
+            viewBox="0 0 452 364"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M335.233 74.9017C342.724 99.2092 315.102 95.4855 300.706 88.4969C251.121 59.0898 253.812 -5.46797 278.71 -50.0972C327.854 -124.592 419.545 -137.357 497.756 -102.119C591.951 -51.757 629.92 47.4384 609.833 149.189C574.632 284.671 451.976 363.282 313.701 358.128C129.37 343.004 3.4376 189.964 0.977647 12.2985C0.966615 11.2721 1.02177 -1.52592 0.547431 6.22711C-7.48327 143.238 73.5628 272.703 196.241 333.701C339.425 397.876 503.977 359.406 589.557 224.951C646.026 123.571 637.797 6.00873 554.908 -78.6306C485.677 -140.185 393.941 -157.188 311.494 -110.32C246.929 -66.6625 215.413 8.1272 250.106 81.0059C279.239 130.407 337.175 158.22 390.411 126.694C421.674 103.916 426.77 75.0655 418.32 39.8273C411.591 8.06165 446.902 23.7316 459.764 35.5359C499.907 78.4725 484.496 140.661 449.351 181.26C387.19 243.525 296.988 242.335 225.087 197.116C129.094 127.786 108.752 8.65134 156.826 -95.4471C222.958 -220.271 361.587 -271.834 496.939 -237.699C614.024 -203.477 694.122 -117.418 731.032 -4.63806C732.367 -0.564987 732.146 -1.88629 731.418 -4.83463C698.976 -134.322 585.906 -231.213 453.962 -251.753C303.872 -268.995 164.217 -185.994 126.568 -37.6486C105.763 70.6758 148.387 174.96 249.245 226.632C329.596 261.03 416.941 249.072 475.693 182.09C518.561 124.598 523.337 49.1528 469.229 -3.00009C428.976 -35.3773 370.335 -40.6297 337.307 4.49088C322.614 29.3553 326.078 49.3822 335.233 74.9017Z"
+              fill="#5A9E7C"
+              fill-opacity="0.15"
+              style="
+                fill: #5a9e7c;
+                fill: color(display-p3 0.3529 0.6196 0.4863);
+                fill-opacity: 0.15;
+              "
+            />
+          </svg>
+          <div class="modal-container">
+            <div class="modal-header">
+              <h3 class="person-profession uppercase">
+                „კარპე დიემ“-ის დამფუძნებლები"
+              </h3>
+              <svg
+                class="fa-regular fa-circle-xmark"
+                width="44"
+                height="44"
+                viewBox="0 0 44 44"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect
+                  width="44"
+                  height="44"
+                  rx="22"
+                  fill="white"
+                  style="fill: white; fill-opacity: 1"
+                />
+                <path
+                  d="M21.9936 23.3618L17.6351 27.7204C17.4402 27.9153 17.2187 28.0083 16.9706 27.9994C16.7226 27.9906 16.5011 27.8887 16.3062 27.6938C16.1113 27.4989 16.0139 27.273 16.0139 27.0161C16.0139 26.7592 16.1113 26.5333 16.3062 26.3384L20.6382 22.0064L16.2796 17.6478C16.0847 17.4529 15.9917 17.227 16.0006 16.9701C16.0094 16.7131 16.1113 16.4872 16.3062 16.2923C16.5011 16.0974 16.727 16 16.9839 16C17.2408 16 17.4667 16.0974 17.6616 16.2923L21.9936 20.6509L26.3522 16.2923C26.5471 16.0974 26.773 16 27.0299 16C27.2869 16 27.5128 16.0974 27.7077 16.2923C27.9026 16.4872 28 16.7131 28 16.9701C28 17.227 27.9026 17.4529 27.7077 17.6478L23.3491 22.0064L27.7077 26.365C27.9026 26.5598 28 26.7813 28 27.0294C28 27.2774 27.9026 27.4989 27.7077 27.6938C27.5128 27.8887 27.2869 27.9861 27.0299 27.9861C26.773 27.9861 26.5471 27.8887 26.3522 27.6938L21.9936 23.3618Z"
+                  fill="#292A2D"
+                  style="
+                    fill: #292a2d;
+                    fill: color(display-p3 0.1608 0.1647 0.1765);
+                    fill-opacity: 1;
+                  "
+                />
+              </svg>
+            </div>
+            <div class="image-box"><div>  <img class="person-img" src="images/nino.jpg" alt="psychologist" /></div>
+            
+              <div class="person-title">
+                <h3 class="name uppercase">ნინო მჟავანაძე</h3>
+                <h2 class="subName">"კარპე დიემ"-ის თანადამფუძნებელი</h2>
+              </div>
+            </div>
 
-        <ul class="personal-ul">
-          <li class="person-experience">განათლება</li>
-          <li class="person-li">
-            <i class="fa-regular fa-circle"></i>ილიას სახელმწიფო უნივერსიტეტი -
-            კლინიკური ფსიქოლოგიის მაგისტრი
-          </li>
-          <li class="person-li">
-            <i class="fa-regular fa-circle"></i>"გრონინგენის უნივერსიტეტი" -
-            გაცვლითი სამაგისტრო პროგრამა ფსიქოლოგიაში
-          </li>
-          <li class="person-li">
-            <i class="fa-regular fa-circle"></i>ილიას სახელმწიფო უნივერსიტეტი -
-            გამოყენებითი ფსიქოლოგიის ბაკალავრი
-          </li>
-        </ul>
+            <ul class="personal-ul">
+              <li class="name uppercase">განათლება</li>
+              <li class="person-li"></li>
+              <li class="person-li">
+                <img src="./images/svg/horizontal.svg" />ილიას სახელმწიფო
+                უნივერსიტეტი - განათლების ფსიქოლოგიის მაგისტრი
+              </li>
+              <li class="person-li">
+                <img src="./images/svg/horizontal.svg" />ივანე ჯავახიშვილის სახელობის
+                თბილისის სახელმწიფო უნივერსიტეტი - ბაკალავრის ხარისხი
+                სამართალმოცდნეობაში
+              </li>
+            </ul>
 
-        <ul class="personal-ul">
-          <li class="person-experience">სამუშაო გამოცდილება</li>
-          <li class="person-li">
-            <i class="fa-regular fa-circle"></i>პიროვნული განვითარების ცენტრი
-            "კარპე დიემ“ - ფსიქოლოგი/ტრენერი (2019 წლიდან-დღემდე)
-          </li>
-          <li class="person-li">
-            <i class="fa-regular fa-circle"></i>"ბავშვის განვითარების ინსტიტუტი"
-            - მოწვეული ფსიქოლოგი (2016 წლიდან-დღემდე)
-          </li>
-          <li class="person-li">
-            <i class="fa-regular fa-circle"></i>ფსიქოლოგი და მკვლევარი პროექტში
-            - „აუტისტური სპექტრისა და ინტელექტუალური დარღვევის მქონე მოზარდებთან
-            მენტალიზაციაზე დაფუძნებული ბავშვთა და მოზარდთა აბილიტაციის
-            სტრატეგიის გამოყენებაში, მეთოდის ეფექტურობის შეფასებასა და
-            განვითარებაში“.
-          </li>
+            <ul class="personal-ul">
+              <li class="name uppercase">სამუშაო გამოცდილება</li>
+              <li class="person-li">
+                <img src="./images/svg/horizontal.svg" />
+                "კარპე დიემ“ - ბავშვთა გეშტალტ თერაპევტი (2024 წლიდან-დღემდე)
+              </li>
+              <li class="person-li">
+                <img src="./images/svg/horizontal.svg" />
+                "კარპე დიემ“ - ტრენერი (2019 წლიდან-დღემდე)
+              </li>
+              <li class="person-li">
+                <img src="./images/svg/horizontal.svg" />„კარპე დიემ“-ის საზაფხულო და
+                საზამთრო ბანაკი - ორგანიზატორი (2020-2024წ.)
+              </li>
+              <li class="person-li">
+                <img src="./images/svg/horizontal.svg" />„კარპე დიემ“-ის საზაფხულო და
+                საზამთრო ბანაკი - ლიდერების ტრენერი (2022-2024წ)
+              </li>
+              <li class="person-li">
+                <img src="./images/svg/horizontal.svg" />საბავშვო ბაღი „WonderWell“
+                - მენეჯერი (2022-2024წ)
+              </li>
+              <li class="person-li">
+                <img src="./images/svg/horizontal.svg" /> საბავშვო ბაღი „WonderWell“
+                - 3-6 წლამდე ბავშვების პროგრამის შემუშავება და აღმზრდელების
+                გადამზადება (2022-2024წ)
+              </li>
 
-          <li class="person-li">
-            <i class="fa-regular fa-circle"></i>
-            არაფორმალური განათლების სივრცე „ბრეინ ჰაბი“ - მოწვეული ტრენერი (2021
-            წელი)
-          </li>
-          <li class="person-li">
-            <i class="fa-regular fa-circle"></i>აუტიზმის და სხვა განვითარების
-            დარღვევების მქონე ბავშვებთან და მოზარდებთან მუშაობის 8 წლიანი
-            გამოცდილება - საჯარო და კერძო საგანმანათლებლო სისტემებში
-          </li>
-        </ul>
-      </div>
-
-      <!--Mzhavanadze Modal window -->
-
-      <div class="modal-window nino-modal">
-        <div class="image-box">
-          <img class="modal-img" src="images/nino.jpg" alt="psychologist" />
-          <div class="person-title">
-            <h3 class="name">ნინო მჟავანაძე</h3>
-            <h3 class="person-profession">
-              არაფორმალური განათლებისა და პიროვნული განვითარების ცენტრ „კარპე
-              დიემ“-ს თანადამფუძნებელი
-            </h3>
-            <i class="fa-regular fa-circle-xmark"></i>
+              <li class="person-li">
+                <img src="./images/svg/horizontal.svg" /></i>სპეციალური საჭიროების მქონე
+                ბავშვებთან მუშაობის 3 წლიანი გამოცდილება
+              </li>
+            </ul>
           </div>
         </div>
-
-        <ul class="personal-ul">
-          <li class="person-experience">განათლება</li>
-          <li class="person-li"></li>
-          <li class="person-li">
-            <i class="fa-regular fa-circle"></i>ილიას სახელმწიფო უნივერსიტეტი -
-            განათლების ფსიქოლოგიის მაგისტრი
-          </li>
-          <li class="person-li">
-            <i class="fa-regular fa-circle"></i>ივანე ჯავახიშვილის სახელობის
-            თბილისის სახელმწიფო უნივერსიტეტი - ბაკალავრის ხარისხი
-            სამართალმოცდნეობაში
-          </li>
-        </ul>
-
-        <ul class="personal-ul">
-          <li class="person-experience">სამუშაო გამოცდილება</li>
-          <li class="person-li">
-            <i class="fa-regular fa-circle"></i>პიროვნული განვითარების ცენტრ
-            "კარპე დიემ“ - ფსიქოლოგი/ტრენერი (2019 წლიდან-დღემდე)
-          </li>
-          <li class="person-li">
-            <i class="fa-regular fa-circle"></i>„კარპე დიემ“-ის საზაფხულო და
-            საზამთრო ბანაკი - ორგანიზატორი (2020 წლიდან-დღემდე)
-          </li>
-          <li class="person-li">
-            <i class="fa-regular fa-circle"></i>„კარპე დიემ“-ის საზაფხულო და
-            საზამთრო ბანაკი - ლიდერების ტრენერი (2020 წლიდან-დღემდე)
-          </li>
-          <li class="person-li">
-            <i class="fa-regular fa-circle"></i> საბავშვო ბაღი „WonderWell“ -
-            მენეჯერი (2022 წლიდან-დღემდე)
-          </li>
-          <li class="person-li">
-            <i class="fa-regular fa-circle"></i> საბავშვო ბაღი „WonderWell“ -
-            3-6 წლამდე ბავშვების პროგრამის შემუშავება და აღმზრდელების
-            გადამზადება (2022 წლიდნ-დღემდე)
-          </li>
-
-          <li class="person-li">
-            <i class="fa-regular fa-circle"></i>სპეციალური საჭიროების მქონე
-            ბავშვებთან მუშაობის 3 წლიანი გამოცდილება
-          </li>
-        </ul>
       </div>
     </div>
 
     <!-- Footer  -->
 
-    <footer>
+    <footer class="footer">
       <div class="footer-block">
         <div class="ftr-left-block">
-          <img
-            class="logo-footer"
-            src="images/279563310_540949714217207_4094088807898975909_n-removebg-preview.png"
-            alt="logo"
-          />
-        </div>
-        <div class="ftr-middle-block">
-          <h4 class="ftr-title">გამოგვყევით:</h4>
-          <div class="icons">
-            <div class="ftr-icon-block">
-              <a
-                href="https://www.facebook.com/%E1%83%91%E1%83%90%E1%83%95%E1%83%A8%E1%83%95%E1%83%97%E1%83%90-%E1%83%9E%E1%83%98%E1%83%A0%E1%83%9D%E1%83%95%E1%83%9C%E1%83%A3%E1%83%9A%E1%83%98-%E1%83%92%E1%83%90%E1%83%9C%E1%83%95%E1%83%98%E1%83%97%E1%83%90%E1%83%A0%E1%83%94%E1%83%91%E1%83%98%E1%83%A1-%E1%83%AA%E1%83%94%E1%83%9C%E1%83%A2%E1%83%A0%E1%83%98-Carpe-diem%E1%83%99%E1%83%90%E1%83%A0%E1%83%9E%E1%83%94-%E1%83%93%E1%83%98%E1%83%94%E1%83%9B-830945730579455"
-                target="_blank"
-              >
-                <i class="fa-brands fa-facebook ftr-icon"></i>
-              </a>
-            </div>
-            <div class="ftr-icon-block">
-              <a href="#" target="_blank">
-                <i class="fa-brands fa-instagram ftr-icon"></i>
-              </a>
-            </div>
-          </div>
+          <img class="logo-footer" src="images/logo.png" alt="logo" />
         </div>
         <div class="ftr-right-block">
-          <h4 class="ftr-title contact-title">საკონტაქტო ინფორმაცია:</h4>
+          
           <div class="contact-info">
+            <h4 class="ftr-title contact-title uppercase">კონტაქტი</h4>
             <div class="contact-icons">
-              <i class="fa-regular fa-envelope"></i>
+              <!-- <i class="fa-regular fa-envelope"></i> -->
               <a class="contact-word" target="_blank" href="Info@carpe-diem.ge">
                 Info@carpe-diem.ge</a
               >
             </div>
             <div class="contact-icons">
-              <i class="fa-solid fa-phone"></i>
+              <!-- <i class="fa-solid fa-phone"></i> -->
               <a href="tel:+995577385697" target="_blank" class="contact-word"
                 >+995 550 05 65 23</a
               >
-            
             </div>
             <div class="contact-icons">
-              <i class="fa-solid fa-location-dot"></i>
+              <!-- <i class="fa-solid fa-location-dot"></i> -->
               <a
                 href="https://goo.gl/maps/dWBHEqVwXFrsVSw4A"
                 target="_blank"
@@ -355,14 +500,18 @@
               </a>
             </div>
           </div>
+          <img class="logo-mob" src="images/black.png" alt="logo" />
+        </div>
+      
         </div>
       </div>
       <div class="bottom-footer">
-        <h2 class="ftr-bottom-text">
-          Copyright & copy by Carpe Diem <span id="year"></span>
+        <h2 class="copyRightText uppercase">
+          &copy; 2025 Carpe Diem. ყველა უფლება დაცულია.
         </h2>
       </div>
     </footer>
     <script src="js/aboutus.js"></script>
+   
   </body>
 </html>

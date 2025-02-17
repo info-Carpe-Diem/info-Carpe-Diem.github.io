@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/resposive.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/resposive.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
@@ -23,38 +23,36 @@
       <div class="header-block">
         <div class="logo">
           <a class="logo-link" href="index.html">
-            <img
-              class="logo-img"
-              src="images/279563310_540949714217207_4094088807898975909_n-removebg-preview.png"
-              alt="logo"
-            />
+            <img class="logo-img" src="images/logo.png" alt="logo" />
           </a>
         </div>
         <nav class="nav-block">
           <ul class="nav-ul">
             <li class="nav-li">
-              <a class="nav-a" href="index.html"> მთავარი </a>
+              <a class="nav-a uppercase" href="index.html"> მთავარი </a>
             </li>
             <li class="nav-li">
-              <a class="nav-a" href="aboutus.html"> ჩვენს შესახებ </a>
+              <a class="nav-a uppercase" href="aboutus.html"> ჩვენ შესახებ </a>
             </li>
             <li class="nav-li">
-              <a class="nav-a" href="service.html"> სერვისები </a>
+              <a class="nav-a uppercase uppercase" href="service.html">
+                სერვისები</a
+              >
             </li>
             <li class="nav-li">
-              <a class="nav-a active" href="team.html"> გუნდი</a>
+              <a class="nav-a uppercase" href="projects.html">პროექტები</a>
             </li>
             <li class="nav-li">
-              <a class="nav-a" href="#"> გალერეა </a>
+              <a class="nav-a uppercase active" href="team.html"> გუნდი</a>
             </li>
             <li class="nav-li">
-              <a class="nav-a" href="#"> ვიდეო </a>
+              <a class="nav-a uppercase" href="photos.html"> გალერეა </a>
             </li>
             <li class="nav-li">
-              <a class="nav-a" href="video.html"> სტატიები </a>
+              <a class="nav-a uppercase" href="video.html"> სტატიები </a>
             </li>
-            <li class="nav-li">
-              <a class="nav-a" href="contact.html"> კონტაქტი </a>
+            <li class="contactBtn">
+              <a class="BtnTxt uppercase" href="contact.html"> კონტაქტი </a>
             </li>
           </ul>
           <div class="humburger">
@@ -65,235 +63,360 @@
         </nav>
       </div>
     </header>
-    <div class="container">
+    <div class="teamContainer">
       <!-- Who are we  -->
 
       <!--  Carpe Diem Team members -->
 
-      <h2 class="question">"კარპე დიემ"-ის გუნდის წევრები</h2>
+      <h2 class="aboutUsSectionTitle uppercase">"კარპე დიემ"-ის თერაპევტები</h2>
       <div class="team">
-        <!--  Salome Kurashvili profile -->
-
-        <div class="person">
+        <div class="teamPhotos">
           <img class="person-img" src="images/khatia.JPG" alt="psychologist" />
-          <h3 class="name">ხატია ფიცხელაური</h3>
-          <h3 class="person-profession">ბავშვთა გეშტალტ თერაპევტი</h3>
-          <span class="person-span"></span>
-          <!-- <p class="person-text">
-            "ჯანსაღ ურთიერთობებს ორმხრივი მიმღებლობა ქმნის"
-          </p> -->
-          <button class="person-name Salome">იხ. მეტი</button>
+          <h3 class="teamTitle uppercase">ხატია ფიცხელაური</h3>
+          <h3 class="teamSubTitle">ბავშვთა გეშტალტ თერაპევტი</h3>
+
+          <div class="ReadMoreButton uppercase Khatia">იხ. მეტი</div>
         </div>
-
-        <!--  Lana Murjikneli profile -->
-
-        <div class="person">
+        <div class="teamPhotos">
+          <img class="person-img" src="images/nino.jpg" alt="psychologist" />
+          <h3 class="teamTitle uppercase">ნინო მჟავანაძე</h3>
+          <h3 class="teamSubTitle">ბავშვთა გეშტალტ თერაპევტი</h3>
+          <div class="ReadMoreButton uppercase Nino">იხ. მეტი</div>
+        </div>
+        <div class="teamPhotos">
           <img class="person-img" src="images/mari.JPG" alt="psychologist" />
-
-          <h3 class="name">მარიამ გოჩაშვილი</h3>
-          <h3 class="person-profession">არტ თერაპევტი</h3>
-          <span class="person-span"></span>
-          <!-- <p class="person-text">
-            "ყველა ბავშვი უნიკალური პიროვნებაა, აღმოვაჩენინოთ მათ ეს
-            უნიკალურობა"
-          </p> -->
-          <button class="person-name Lana">იხ. მეტი</button>
+          <h3 class="teamTitle uppercase">მარიამ გოჩაშვილი</h3>
+          <h3 class="teamSubTitle">არტ თერაპევტი</h3>
+          <div class="ReadMoreButton uppercase Mariam">იხ. მეტი</div>
         </div>
-        <div class="person">
-          <img class="person-img" src="images/nini.jpg" alt="psychologist" />
-
-          <h3 class="name">ნინო მჟავანაძე</h3>
-          <h3 class="person-profession">ბავშვთა გეშტალტ თერაპევტი</h3>
-          <span class="person-span"></span>
-          <!-- <p class="person-text">
-            "ყველა ბავშვი უნიკალური პიროვნებაა, აღმოვაჩენინოთ მათ ეს
-            უნიკალურობა"
-          </p> -->
-          <button class="person-name Nino">იხ. მეტი</button>
-        </div>
-        <div class="person">
-          <img class="person-img" src="images/mariami.JPG" alt="psychologist" />
-
-          <h3 class="name">მარიამ ნეფარიძე</h3>
-          <h3 class="person-profession">მეტყველების თერაპევტი</h3>
-          <span class="person-span"></span>
-          <!-- <p class="person-text">
-            "ყველა ბავშვი უნიკალური პიროვნებაა, აღმოვაჩენინოთ მათ ეს
-            უნიკალურობა"
-          </p> -->
-          <button class="person-name Mariam">იხ. მეტი</button>
-        </div>
-        <div class="person">
+        <div class="teamPhotos">
           <img class="person-img" src="images/qeti.jfif" alt="psychologist" />
-
-          <h3 class="name">ქეთი აბულაძე</h3>
-          <h3 class="person-profession">ადრეული განვითარების სპეციალისტი</h3>
-          <span class="person-span"></span>
-          <button class="person-name Keti">იხ. მეტი</button>
+          <h3 class="teamTitle uppercase">ქეთი აბულაძე</h3>
+          <h3 class="teamSubTitle">ადრეული განვითარების სპეციალისტი</h3>
+          <div class="ReadMoreButton uppercase Keti">იხ. მეტი</div>
         </div>
       </div>
       <div class="overlay"></div>
 
       <!-- modal- windows -->
 
-      <!-- Kurashvili Modal window -->
+      <!-- Khatia  Modal window -->
 
-      <div class="modal-window salome-modal customScroll">
-        <div class="image-box">
-          <img class="modal-img" src="images/khatia.JPG" alt="psychologist" />
-          <div class="person-title">
-            <h3 class="name">ხატია ფიცხელაური</h3>
-            <h3 class="person-profession">ბავშვთა გეშტალტ თერაპევტი</h3>
+      <div class="modal-window khatia-modal customScroll">
+        <svg
+          class="personSvg"
+          width="452"
+          height="364"
+          viewBox="0 0 452 364"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M335.233 74.9017C342.724 99.2092 315.102 95.4855 300.706 88.4969C251.121 59.0898 253.812 -5.46797 278.71 -50.0972C327.854 -124.592 419.545 -137.357 497.756 -102.119C591.951 -51.757 629.92 47.4384 609.833 149.189C574.632 284.671 451.976 363.282 313.701 358.128C129.37 343.004 3.4376 189.964 0.977647 12.2985C0.966615 11.2721 1.02177 -1.52592 0.547431 6.22711C-7.48327 143.238 73.5628 272.703 196.241 333.701C339.425 397.876 503.977 359.406 589.557 224.951C646.026 123.571 637.797 6.00873 554.908 -78.6306C485.677 -140.185 393.941 -157.188 311.494 -110.32C246.929 -66.6625 215.413 8.1272 250.106 81.0059C279.239 130.407 337.175 158.22 390.411 126.694C421.674 103.916 426.77 75.0655 418.32 39.8273C411.591 8.06165 446.902 23.7316 459.764 35.5359C499.907 78.4725 484.496 140.661 449.351 181.26C387.19 243.525 296.988 242.335 225.087 197.116C129.094 127.786 108.752 8.65134 156.826 -95.4471C222.958 -220.271 361.587 -271.834 496.939 -237.699C614.024 -203.477 694.122 -117.418 731.032 -4.63806C732.367 -0.564987 732.146 -1.88629 731.418 -4.83463C698.976 -134.322 585.906 -231.213 453.962 -251.753C303.872 -268.995 164.217 -185.994 126.568 -37.6486C105.763 70.6758 148.387 174.96 249.245 226.632C329.596 261.03 416.941 249.072 475.693 182.09C518.561 124.598 523.337 49.1528 469.229 -3.00009C428.976 -35.3773 370.335 -40.6297 337.307 4.49088C322.614 29.3553 326.078 49.3822 335.233 74.9017Z"
+            fill="#5A9E7C"
+            fill-opacity="0.15"
+            style="
+              fill: #5a9e7c;
+              fill: color(display-p3 0.3529 0.6196 0.4863);
+              fill-opacity: 0.15;
+            "
+          />
+        </svg>
+        <div class="modal-container">
+          <div class="modal-header">
+            <h3 class="person-profession uppercase">
+              „კარპე დიემ“-ის თერაპევტები"
+            </h3>
+            <svg
+              class="fa-regular fa-circle-xmark"
+              width="44"
+              height="44"
+              viewBox="0 0 44 44"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                width="44"
+                height="44"
+                rx="22"
+                fill="white"
+                style="fill: white; fill-opacity: 1"
+              />
+              <path
+                d="M21.9936 23.3618L17.6351 27.7204C17.4402 27.9153 17.2187 28.0083 16.9706 27.9994C16.7226 27.9906 16.5011 27.8887 16.3062 27.6938C16.1113 27.4989 16.0139 27.273 16.0139 27.0161C16.0139 26.7592 16.1113 26.5333 16.3062 26.3384L20.6382 22.0064L16.2796 17.6478C16.0847 17.4529 15.9917 17.227 16.0006 16.9701C16.0094 16.7131 16.1113 16.4872 16.3062 16.2923C16.5011 16.0974 16.727 16 16.9839 16C17.2408 16 17.4667 16.0974 17.6616 16.2923L21.9936 20.6509L26.3522 16.2923C26.5471 16.0974 26.773 16 27.0299 16C27.2869 16 27.5128 16.0974 27.7077 16.2923C27.9026 16.4872 28 16.7131 28 16.9701C28 17.227 27.9026 17.4529 27.7077 17.6478L23.3491 22.0064L27.7077 26.365C27.9026 26.5598 28 26.7813 28 27.0294C28 27.2774 27.9026 27.4989 27.7077 27.6938C27.5128 27.8887 27.2869 27.9861 27.0299 27.9861C26.773 27.9861 26.5471 27.8887 26.3522 27.6938L21.9936 23.3618Z"
+                fill="#292A2D"
+                style="
+                  fill: #292a2d;
+                  fill: color(display-p3 0.1608 0.1647 0.1765);
+                  fill-opacity: 1;
+                "
+              />
+            </svg>
           </div>
-          <i class="fa-regular fa-circle-xmark"></i>
+          <div class="image-box">
+            <div>    <img class="person-img" src="images/khatia.JPG" alt="psychologist" /></div>
+        
+            <div class="person-title">
+              <h3 class="name uppercase">ხატია ფიცხელაური</h3>
+              <h3 class="subName">ბავშვთა გეშტალტ თერაპევტი</h3>
+            </div>
+          </div>
+          <ul class="personal-ul">
+            <li class="name uppercase">განათლება</li>
+            <li class="person-li">
+              <img src="./images/svg/horizontal.svg" /></i>ილიას სახელმწიფო უნივერსიტეტი -
+              კლინიკური ფსიქოლოგიის მაგისტრი
+            </li>
+            <li class="person-li">
+              <img src="./images/svg/horizontal.svg" /> </i>ილიას სახელმწიფო უნივერსიტეტი -
+              გამოყენებითი ფსიქოლოგიის ბაკალავრი
+            </li>
+          </ul>
+  
+          <ul class="personal-ul">
+            <li class="name uppercase">სამუშაო გამოცდილება</li>
+            <li class="person-li">
+              <img src="./images/svg/horizontal.svg" />
+              "კარპე დიემ“ - ბავშვთა გეშტალტ თერაპევტი (2024წლიდან-დღემდე)
+            </li>
+            <li class="person-li">
+              <img src="./images/svg/horizontal.svg" />კრიზისული ინტერვენციის სამსახური
+              (2020-2024 წ.) - ფსიქოთერაპევტი
+            </li>
+            <li class="person-li">
+              <img src="./images/svg/horizontal.svg" />ბავშვთა განვითარების ცენტრი
+              „სპექტრუმი“ - ფსიქოლოგი/განვითარების სპეციალისტი
+            </li>
+            <li class="person-li">
+              <img src="./images/svg/horizontal.svg" />ვაიოლეტ ოკლანდერის სახელობის
+              ბავშვთა და მოზარდთა გეშტალტ თამაშით თერაპიის ინსტიტუტის პროგრამა
+              „გეშტალტ თამაშით თერაპია ბავშვებთან და მოზარდებთან“ – 2023 წლიდან
+            </li>
+          </ul>
         </div>
 
-        <ul class="personal-ul">
-          <li class="person-experience">განათლება</li>
-          <li class="person-li">
-            <i class="fa-regular fa-circle"> </i>ილიას სახელმწიფო უნივერსიტეტი -
-            კლინიკური ფსიქოლოგიის მაგისტრი
-          </li>
-          <li class="person-li">
-            <i class="fa-regular fa-circle"> </i>ილიას სახელმწიფო უნივერსიტეტი -
-            გამოყენებითი ფსიქოლოგიის ბაკალავრი
-          </li>
-        </ul>
-
-        <ul class="personal-ul">
-          <li class="person-experience">სამუშაო გამოცდილება</li>
-          <li class="person-li">
-            <i class="fa-regular fa-circle"></i>პიროვნული განვითარების ცენტრი
-            "კარპე დიემ“ - ბავშვთა გეშტალტ თერაპევტი (2024წლიდან-დღემდე)
-          </li>
-          <li class="person-li">
-            <i class="fa-regular fa-circle"></i>კრიზისული ინტერვენციის სამსახური
-            (2020-2024 წ.) - ფსიქოთერაპევტი
-          </li>
-          <li class="person-li">
-            <i class="fa-regular fa-circle"></i>ბავშვთა განვითარების ცენტრი
-            „სპექტრუმი“ - ფსიქოლოგი/განვითარების სპეციალისტი
-          </li>
-          <li class="person-li">
-            <i class="fa-regular fa-circle"></i>ვაიოლეტ ოკლანდერის სახელობის
-            ბავშვთა და მოზარდთა გეშტალტ თამაშით თერაპიის ინსტიტუტის პროგრამა
-            „გეშტალტ თამაშით თერაპია ბავშვებთან და მოზარდებთან“ – 2023 წლიდან
-          </li>
-        </ul>
+      
       </div>
 
       <!-- Murjikneli  Modal window -->
 
-      <div class="modal-window lana-modal customScroll">
-        <div class="image-box">
-          <img class="modal-img" src="images/mari.JPG" alt="psychologist" />
-          <div class="person-title">
-            <h3 class="name">მარიამ გოჩაშვილი</h3>
-            <h3 class="person-profession">არტ თერაპევტი</h3>
+      <div class="modal-window mariam-modal customScroll">
+        <svg
+        class="personSvg"
+        width="452"
+        height="364"
+        viewBox="0 0 452 364"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M335.233 74.9017C342.724 99.2092 315.102 95.4855 300.706 88.4969C251.121 59.0898 253.812 -5.46797 278.71 -50.0972C327.854 -124.592 419.545 -137.357 497.756 -102.119C591.951 -51.757 629.92 47.4384 609.833 149.189C574.632 284.671 451.976 363.282 313.701 358.128C129.37 343.004 3.4376 189.964 0.977647 12.2985C0.966615 11.2721 1.02177 -1.52592 0.547431 6.22711C-7.48327 143.238 73.5628 272.703 196.241 333.701C339.425 397.876 503.977 359.406 589.557 224.951C646.026 123.571 637.797 6.00873 554.908 -78.6306C485.677 -140.185 393.941 -157.188 311.494 -110.32C246.929 -66.6625 215.413 8.1272 250.106 81.0059C279.239 130.407 337.175 158.22 390.411 126.694C421.674 103.916 426.77 75.0655 418.32 39.8273C411.591 8.06165 446.902 23.7316 459.764 35.5359C499.907 78.4725 484.496 140.661 449.351 181.26C387.19 243.525 296.988 242.335 225.087 197.116C129.094 127.786 108.752 8.65134 156.826 -95.4471C222.958 -220.271 361.587 -271.834 496.939 -237.699C614.024 -203.477 694.122 -117.418 731.032 -4.63806C732.367 -0.564987 732.146 -1.88629 731.418 -4.83463C698.976 -134.322 585.906 -231.213 453.962 -251.753C303.872 -268.995 164.217 -185.994 126.568 -37.6486C105.763 70.6758 148.387 174.96 249.245 226.632C329.596 261.03 416.941 249.072 475.693 182.09C518.561 124.598 523.337 49.1528 469.229 -3.00009C428.976 -35.3773 370.335 -40.6297 337.307 4.49088C322.614 29.3553 326.078 49.3822 335.233 74.9017Z"
+          fill="#5A9E7C"
+          fill-opacity="0.15"
+          style="
+            fill: #5a9e7c;
+            fill: color(display-p3 0.3529 0.6196 0.4863);
+            fill-opacity: 0.15;
+          "
+        />
+      </svg>
+        <div class="modal-container">
+          <div class="modal-header">
+            <h3 class="person-profession uppercase">
+              „კარპე დიემ“-ის თერაპევტები"
+            </h3>
+            <svg
+              class="fa-regular fa-circle-xmark"
+              width="44"
+              height="44"
+              viewBox="0 0 44 44"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                width="44"
+                height="44"
+                rx="22"
+                fill="white"
+                style="fill: white; fill-opacity: 1"
+              />
+              <path
+                d="M21.9936 23.3618L17.6351 27.7204C17.4402 27.9153 17.2187 28.0083 16.9706 27.9994C16.7226 27.9906 16.5011 27.8887 16.3062 27.6938C16.1113 27.4989 16.0139 27.273 16.0139 27.0161C16.0139 26.7592 16.1113 26.5333 16.3062 26.3384L20.6382 22.0064L16.2796 17.6478C16.0847 17.4529 15.9917 17.227 16.0006 16.9701C16.0094 16.7131 16.1113 16.4872 16.3062 16.2923C16.5011 16.0974 16.727 16 16.9839 16C17.2408 16 17.4667 16.0974 17.6616 16.2923L21.9936 20.6509L26.3522 16.2923C26.5471 16.0974 26.773 16 27.0299 16C27.2869 16 27.5128 16.0974 27.7077 16.2923C27.9026 16.4872 28 16.7131 28 16.9701C28 17.227 27.9026 17.4529 27.7077 17.6478L23.3491 22.0064L27.7077 26.365C27.9026 26.5598 28 26.7813 28 27.0294C28 27.2774 27.9026 27.4989 27.7077 27.6938C27.5128 27.8887 27.2869 27.9861 27.0299 27.9861C26.773 27.9861 26.5471 27.8887 26.3522 27.6938L21.9936 23.3618Z"
+                fill="#292A2D"
+                style="
+                  fill: #292a2d;
+                  fill: color(display-p3 0.1608 0.1647 0.1765);
+                  fill-opacity: 1;
+                "
+              />
+            </svg>
           </div>
-          <i class="fa-regular fa-circle-xmark"></i>
+        <div class="image-box">
+          <div> <img class="person-img" src="images/mari.JPG" alt="psychologist" /></div>
+         
+          <div class="person-title">
+            <h3 class="name uppercase">მარიამ გოჩაშვილი</h3>
+            <h3 class="subName">არტ თერაპევტი</h3>
+          </div>
         </div>
 
         <ul class="personal-ul">
-          <li class="person-experience">განათლება</li>
+          <li class="name uppercase">განათლება</li>
           <li class="person-li"></li>
           <li class="person-li">
-            <i class="fa-regular fa-circle"></i>ილიას სახელმწიფო უნივერსიტეტი -
+            <img src="./images/svg/horizontal.svg" /> ილიას სახელმწიფო უნივერსიტეტი -
             კლინიკური ფსიქოლოგიის მაგისტრი
           </li>
           <li class="person-li">
-            <i class="fa-regular fa-circle"></i>ილიას სახელმწიფო უნივერსიტეტი -
+            <img src="./images/svg/horizontal.svg" /> ილიას სახელმწიფო უნივერსიტეტი -
             გამოყენებითი ფსიქოლოგიის ბაკალავრი
           </li>
         </ul>
 
         <ul class="personal-ul">
-          <li class="person-experience">სამუშაო გამოცდილება</li>
+          <li class="name uppercase">სამუშაო გამოცდილება</li>
           <li class="person-li">
-            <i class="fa-regular fa-circle"></i>პიროვნული განვითარების ცენტრი
+            <img src="./images/svg/horizontal.svg" /> 
             "კარპე დიემ“ - არტ თერაპევტი (2023 წლიდან-დღემდე)
           </li>
 
           <li class="person-li">
-            <i class="fa-regular fa-circle"></i> "ბავშვის განვითარების
+            <img src="./images/svg/horizontal.svg" /> "ბავშვის განვითარების
             ინსტიტუტი" - ტრენერი;
           </li>
           <li class="person-li">
-            <i class="fa-regular fa-circle"></i>"ბავშვის განვითარების ინსტიტუტი"
+            <img src="./images/svg/horizontal.svg" /> "ბავშვის განვითარების ინსტიტუტი"
             - მოწვეული ფსიქოლოგი (2014 წლიდან-დღემდე)
           </li>
           <li class="person-li">
-            <i class="fa-regular fa-circle"></i> ილიას სახელმწიფო უნივერსიტეტი -
+            <img src="./images/svg/horizontal.svg" /> ილიას სახელმწიფო უნივერსიტეტი -
             მოწვეული პედაგოგი;
           </li>
 
           <li class="person-li">
-            <i class="fa-regular fa-circle"></i>ორგანიზაცია "კარავი"- ქეის
+            <img src="./images/svg/horizontal.svg" /> ორგანიზაცია "კარავი"- ქეის
             მენეჯერი.
           </li>
         </ul>
-      </div>
+        </div></div>
+      </div> 
       <!-- nino mzhavanadze -->
       <div class="modal-window nino-modal customScroll">
-        <div class="image-box">
-          <img class="modal-img" src="images/nini.jpg" alt="psychologist" />
-          <div class="person-title">
-            <h3 class="name">ნინო მჟავანაძე</h3>
-            <h3 class="person-profession">ბავშვთა გეშტალტ თერაპევტი</h3>
-            <i class="fa-regular fa-circle-xmark"></i>
+        <svg
+        
+          class="personSvg"
+          width="452"
+          height="364"
+          viewBox="0 0 452 364"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M335.233 74.9017C342.724 99.2092 315.102 95.4855 300.706 88.4969C251.121 59.0898 253.812 -5.46797 278.71 -50.0972C327.854 -124.592 419.545 -137.357 497.756 -102.119C591.951 -51.757 629.92 47.4384 609.833 149.189C574.632 284.671 451.976 363.282 313.701 358.128C129.37 343.004 3.4376 189.964 0.977647 12.2985C0.966615 11.2721 1.02177 -1.52592 0.547431 6.22711C-7.48327 143.238 73.5628 272.703 196.241 333.701C339.425 397.876 503.977 359.406 589.557 224.951C646.026 123.571 637.797 6.00873 554.908 -78.6306C485.677 -140.185 393.941 -157.188 311.494 -110.32C246.929 -66.6625 215.413 8.1272 250.106 81.0059C279.239 130.407 337.175 158.22 390.411 126.694C421.674 103.916 426.77 75.0655 418.32 39.8273C411.591 8.06165 446.902 23.7316 459.764 35.5359C499.907 78.4725 484.496 140.661 449.351 181.26C387.19 243.525 296.988 242.335 225.087 197.116C129.094 127.786 108.752 8.65134 156.826 -95.4471C222.958 -220.271 361.587 -271.834 496.939 -237.699C614.024 -203.477 694.122 -117.418 731.032 -4.63806C732.367 -0.564987 732.146 -1.88629 731.418 -4.83463C698.976 -134.322 585.906 -231.213 453.962 -251.753C303.872 -268.995 164.217 -185.994 126.568 -37.6486C105.763 70.6758 148.387 174.96 249.245 226.632C329.596 261.03 416.941 249.072 475.693 182.09C518.561 124.598 523.337 49.1528 469.229 -3.00009C428.976 -35.3773 370.335 -40.6297 337.307 4.49088C322.614 29.3553 326.078 49.3822 335.233 74.9017Z"
+            fill="#5A9E7C"
+            fill-opacity="0.15"
+            style="
+              fill: #5a9e7c;
+              fill: color(display-p3 0.3529 0.6196 0.4863);
+              fill-opacity: 0.15;
+            "
+          />
+        </svg>
+        <div class="modal-container">
+          <div class="modal-header">
+            <h3 class="person-profession uppercase">
+              „კარპე დიემ“-ის თერაპევტები"
+            </h3>
+            <svg
+              class="fa-regular fa-circle-xmark"
+              width="44"
+              height="44"
+              viewBox="0 0 44 44"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                width="44"
+                height="44"
+                rx="22"
+                fill="white"
+                style="fill: white; fill-opacity: 1"
+              />
+              <path
+                d="M21.9936 23.3618L17.6351 27.7204C17.4402 27.9153 17.2187 28.0083 16.9706 27.9994C16.7226 27.9906 16.5011 27.8887 16.3062 27.6938C16.1113 27.4989 16.0139 27.273 16.0139 27.0161C16.0139 26.7592 16.1113 26.5333 16.3062 26.3384L20.6382 22.0064L16.2796 17.6478C16.0847 17.4529 15.9917 17.227 16.0006 16.9701C16.0094 16.7131 16.1113 16.4872 16.3062 16.2923C16.5011 16.0974 16.727 16 16.9839 16C17.2408 16 17.4667 16.0974 17.6616 16.2923L21.9936 20.6509L26.3522 16.2923C26.5471 16.0974 26.773 16 27.0299 16C27.2869 16 27.5128 16.0974 27.7077 16.2923C27.9026 16.4872 28 16.7131 28 16.9701C28 17.227 27.9026 17.4529 27.7077 17.6478L23.3491 22.0064L27.7077 26.365C27.9026 26.5598 28 26.7813 28 27.0294C28 27.2774 27.9026 27.4989 27.7077 27.6938C27.5128 27.8887 27.2869 27.9861 27.0299 27.9861C26.773 27.9861 26.5471 27.8887 26.3522 27.6938L21.9936 23.3618Z"
+                fill="#292A2D"
+                style="
+                  fill: #292a2d;
+                  fill: color(display-p3 0.1608 0.1647 0.1765);
+                  fill-opacity: 1;
+                "
+              />
+            </svg>
           </div>
+          <div class="image-box">
+            <div>    <img class="person-img" src="images/nino.jpg" alt="psychologist" /></div>
+        
+            <div class="person-title">
+              <h3 class="name uppercase">ნინო მჟავანაძე</h3>
+              <h2 class="subName">ბავშვთა გეშტალთ თერაპევტი</h2>
+            </div>
+          </div>
+          <ul class="personal-ul">
+            <li class="name uppercase">განათლება</li>
+            <li class="person-li"></li>
+            <li class="person-li">
+              <img src="./images/svg/horizontal.svg" />ილიას სახელმწიფო
+              უნივერსიტეტი - განათლების ფსიქოლოგიის მაგისტრი
+            </li>
+            <li class="person-li">
+              <img src="./images/svg/horizontal.svg" />ივანე ჯავახიშვილის სახელობის
+              თბილისის სახელმწიფო უნივერსიტეტი - ბაკალავრის ხარისხი
+              სამართალმოცდნეობაში
+            </li>
+          </ul>
+          <ul class="personal-ul">
+            <li class="name uppercase">სამუშაო გამოცდილება</li>
+            <li class="person-li">
+              <img src="./images/svg/horizontal.svg" />
+              "კარპე დიემ“ - ბავშვთა გეშტალტ თერაპევტი (2024 წლიდან-დღემდე)
+            </li>
+            <li class="person-li">
+              <img src="./images/svg/horizontal.svg" />
+              "კარპე დიემ“ - ტრენერი (2019 წლიდან-დღემდე)
+            </li>
+            <li class="person-li">
+              <img src="./images/svg/horizontal.svg" />„კარპე დიემ“-ის საზაფხულო და
+              საზამთრო ბანაკი - ორგანიზატორი (2020-2024წ.)
+            </li>
+            <li class="person-li">
+              <img src="./images/svg/horizontal.svg" />„კარპე დიემ“-ის საზაფხულო და
+              საზამთრო ბანაკი - ლიდერების ტრენერი (2020-2024წ.)
+            </li>
+            <li class="person-li">
+              <img src="./images/svg/horizontal.svg" />საბავშვო ბაღი „WonderWell“
+              - მენეჯერი (2022-2024წ.)
+            </li>
+            <li class="person-li">
+              <img src="./images/svg/horizontal.svg" /> საბავშვო ბაღი „WonderWell“
+              - 3-6 წლამდე ბავშვების პროგრამის შემუშავება და აღმზრდელების
+              გადამზადება (2022-2024წ.)
+            </li>
+
+            <li class="person-li">
+              <img src="./images/svg/horizontal.svg" /></i>სპეციალური საჭიროების მქონე
+              ბავშვებთან მუშაობის 3 წლიანი გამოცდილება
+            </li>
+          </ul>
         </div>
-
-        <ul class="personal-ul">
-          <li class="person-experience">განათლება</li>
-          <li class="person-li"></li>
-          <li class="person-li">
-            <i class="fa-regular fa-circle"></i>ილიას სახელმწიფო უნივერსიტეტი -
-            განათლების ფსიქოლოგიის მაგისტრი
-          </li>
-          <li class="person-li">
-            <i class="fa-regular fa-circle"></i>ივანე ჯავახიშვილის სახელობის
-            თბილისის სახელმწიფო უნივერსიტეტი - ბაკალავრის ხარისხი
-            სამართალმოცდნეობაში
-          </li>
-        </ul>
-
-        <ul class="personal-ul">
-          <li class="person-experience">სამუშაო გამოცდილება</li>
-          <li class="person-li">
-            <i class="fa-regular fa-circle"></i>პიროვნული განვითარების ცენტრ
-            "კარპე დიემ“ - ბავშვთა გეშტალთ თერაპევტი (2024 წლიდან-დღემდე)
-          </li>
-          <li class="person-li">
-            <i class="fa-regular fa-circle"></i>პიროვნული განვითარების ცენტრ
-            "კარპე დიემ“ - ფსიქოლოგი/ტრენერი (2019 წლიდან-დღემდე)
-          </li>
-          <li class="person-li">
-            <i class="fa-regular fa-circle"></i>„კარპე დიემ“-ის საზაფხულო და
-            საზამთრო ბანაკი - ორგანიზატორი (2020 წლიდან-დღემდე)
-          </li>
-          <li class="person-li">
-            <i class="fa-regular fa-circle"></i>„კარპე დიემ“-ის საზაფხულო და
-            საზამთრო ბანაკი - ლიდერების ტრენერი (2020 წლიდან-დღემდე)
-          </li>
-          <li class="person-li">
-            <i class="fa-regular fa-circle"></i> საბავშვო ბაღი „WonderWell“ -
-            მენეჯერი (2022 წლიდან - 2025 წლამდე)
-          </li>
-          <li class="person-li">
-            <i class="fa-regular fa-circle"></i> საბავშვო ბაღი „WonderWell“ -
-            3-6 წლამდე ბავშვების პროგრამის შემუშავება და აღმზრდელების
-            გადამზადება (2022 წლიდან - 2025 წლამდე)
-          </li>
-
-          <li class="person-li">
-            <i class="fa-regular fa-circle"></i>სპეციალური საჭიროების მქონე
-            ბავშვებთან მუშაობის 3 წლიანი გამოცდილება
-          </li>
-        </ul>
       </div>
       <!-- mariam nefaridze -->
-      <div class="modal-window mariam-modal customScroll">
+      <!-- <div class="modal-window mariam-modal customScroll">
         <div class="image-box">
           <img class="modal-img" src="images/mariami.JPG" alt="psychologist" />
           <div class="person-title">
@@ -327,106 +450,138 @@
             სუპერვიზორი - ილიას სახელმწიფო უნივერსიტეტი.
           </li>
         </ul>
-      </div>
+      </div> -->
       <!-- keti abuladze -->
       <div class="modal-window keti-modal customScroll">
-        <div class="image-box">
-          <img class="modal-img" src="images/qeti.jfif" alt="psychologist" />
+        <svg
+        
+        class="personSvg"
+        width="452"
+        height="364"
+        viewBox="0 0 452 364"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          fill-rule="evenodd"
+          clip-rule="evenodd"
+          d="M335.233 74.9017C342.724 99.2092 315.102 95.4855 300.706 88.4969C251.121 59.0898 253.812 -5.46797 278.71 -50.0972C327.854 -124.592 419.545 -137.357 497.756 -102.119C591.951 -51.757 629.92 47.4384 609.833 149.189C574.632 284.671 451.976 363.282 313.701 358.128C129.37 343.004 3.4376 189.964 0.977647 12.2985C0.966615 11.2721 1.02177 -1.52592 0.547431 6.22711C-7.48327 143.238 73.5628 272.703 196.241 333.701C339.425 397.876 503.977 359.406 589.557 224.951C646.026 123.571 637.797 6.00873 554.908 -78.6306C485.677 -140.185 393.941 -157.188 311.494 -110.32C246.929 -66.6625 215.413 8.1272 250.106 81.0059C279.239 130.407 337.175 158.22 390.411 126.694C421.674 103.916 426.77 75.0655 418.32 39.8273C411.591 8.06165 446.902 23.7316 459.764 35.5359C499.907 78.4725 484.496 140.661 449.351 181.26C387.19 243.525 296.988 242.335 225.087 197.116C129.094 127.786 108.752 8.65134 156.826 -95.4471C222.958 -220.271 361.587 -271.834 496.939 -237.699C614.024 -203.477 694.122 -117.418 731.032 -4.63806C732.367 -0.564987 732.146 -1.88629 731.418 -4.83463C698.976 -134.322 585.906 -231.213 453.962 -251.753C303.872 -268.995 164.217 -185.994 126.568 -37.6486C105.763 70.6758 148.387 174.96 249.245 226.632C329.596 261.03 416.941 249.072 475.693 182.09C518.561 124.598 523.337 49.1528 469.229 -3.00009C428.976 -35.3773 370.335 -40.6297 337.307 4.49088C322.614 29.3553 326.078 49.3822 335.233 74.9017Z"
+          fill="#5A9E7C"
+          fill-opacity="0.15"
+          style="
+            fill: #5a9e7c;
+            fill: color(display-p3 0.3529 0.6196 0.4863);
+            fill-opacity: 0.15;
+          "
+        />
+      </svg>
+      <div class="modal-container">
+        <div class="modal-header">
+          <h3 class="person-profession uppercase">
+            „კარპე დიემ“-ის თერაპევტები"
+          </h3>
+          <svg
+            class="fa-regular fa-circle-xmark"
+            width="44"
+            height="44"
+            viewBox="0 0 44 44"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <rect
+              width="44"
+              height="44"
+              rx="22"
+              fill="white"
+              style="fill: white; fill-opacity: 1"
+            />
+            <path
+              d="M21.9936 23.3618L17.6351 27.7204C17.4402 27.9153 17.2187 28.0083 16.9706 27.9994C16.7226 27.9906 16.5011 27.8887 16.3062 27.6938C16.1113 27.4989 16.0139 27.273 16.0139 27.0161C16.0139 26.7592 16.1113 26.5333 16.3062 26.3384L20.6382 22.0064L16.2796 17.6478C16.0847 17.4529 15.9917 17.227 16.0006 16.9701C16.0094 16.7131 16.1113 16.4872 16.3062 16.2923C16.5011 16.0974 16.727 16 16.9839 16C17.2408 16 17.4667 16.0974 17.6616 16.2923L21.9936 20.6509L26.3522 16.2923C26.5471 16.0974 26.773 16 27.0299 16C27.2869 16 27.5128 16.0974 27.7077 16.2923C27.9026 16.4872 28 16.7131 28 16.9701C28 17.227 27.9026 17.4529 27.7077 17.6478L23.3491 22.0064L27.7077 26.365C27.9026 26.5598 28 26.7813 28 27.0294C28 27.2774 27.9026 27.4989 27.7077 27.6938C27.5128 27.8887 27.2869 27.9861 27.0299 27.9861C26.773 27.9861 26.5471 27.8887 26.3522 27.6938L21.9936 23.3618Z"
+              fill="#292A2D"
+              style="
+                fill: #292a2d;
+                fill: color(display-p3 0.1608 0.1647 0.1765);
+                fill-opacity: 1;
+              "
+            />
+          </svg>
+        </div>
+        <div class="image-box"><div> <img class="person-img" src="images/qeti.jfif" alt="psychologist" /></div>
+         
           <div class="person-title">
-            <h3 class="name">ქეთი აბულაძე</h3>
-            <h3 class="person-profession">ადრეული განვითარების სპეციალისტი</h3>
-            <i class="fa-regular fa-circle-xmark"></i>
+            <h3 class="name uppercase">ქეთი აბულაძე</h3>
+            <h3 class="subName">ადრეული განვითარების სპეციალისტი</h3>
+          
           </div>
         </div>
 
         <ul class="personal-ul">
-          <li class="person-experience">განათლება</li>
+          <li class="name uppercase">განათლება</li>
           <li class="person-li"></li>
           <li class="person-li">
-            <i class="fa-regular fa-circle"></i>ილიას სახელმწიფო უნივერსიტეტი -
+            <img src="./images/svg/horizontal.svg" /> ილიას სახელმწიფო უნივერსიტეტი -
             კლინიკური ფსიქოლოგიის მაგისტრი
           </li>
           <li class="person-li">
-            <i class="fa-regular fa-circle"></i>ილიას სახელმწიფო უნივერსიტეტი -
+            <img src="./images/svg/horizontal.svg" /> ილიას სახელმწიფო უნივერსიტეტი -
             გამოყენებითი ფსიქოლოგიის ბაკალავრი
           </li>
         </ul>
         <ul class="personal-ul">
-          <li class="person-experience">სამუშაო გამოცდილება</li>
+          <li class="name uppercase">სამუშაო გამოცდილება</li>
           <li class="person-li">
-            <i class="fa-regular fa-circle"></i>პიროვნული განვითარების ცენტრ
+            <img src="./images/svg/horizontal.svg" />
             "კარპე დიემ“ - ადრეული განვითარების სპეციალისტი (2024 წლიდან-დღემდე)
           </li>
           <li class="person-li">
-            <i class="fa-regular fa-circle"></i>"საქართველოს პორტიჯის
+            <img src="./images/svg/horizontal.svg" />"საქართველოს პორტიჯის
             ასოციაცია"-ადრეული განვითარების სპეციალისტი/თერაპევტი (2015
             წლიდან-2023 წლამდე )
           </li>
           <li class="person-li">
-            <i class="fa-regular fa-circle"></i> "საქართველოს პორტიჯის
+            <img src="./images/svg/horizontal.svg" /> "საქართველოს პორტიჯის
             ასოციაცია" - ადრეული ინტერვენციის სუპერვაიზერი/ტრენერი (2017
             წლიდან-დღემდე)
           </li>
           <li class="person-li">
-            <i class="fa-regular fa-circle"></i> "საქართველოს პორტიჯის
+            <img src="./images/svg/horizontal.svg" /> "საქართველოს პორტიჯის
             საქართველოსა (GGPA) და ამერიკის (AGPA) ჯგუფური ფსიქოთერაპიის
             ასოციაციის წევრი
           </li>
           <li class="person-li">
-            <i class="fa-regular fa-circle"></i> სახელმწიფო მზრუნველობის ქვეშ მყოფი კოჯრის ბავშვთა
-            სახლისა და და დუშეთის შშმ პირთა პანსეონატი - მოწვეული განვითარების
-            სპეციალისტი (2019 წლიდან-2020 წლამდე)
+            <img src="./images/svg/horizontal.svg" /> სახელმწიფო მზრუნველობის ქვეშ
+            მყოფი კოჯრის ბავშვთა სახლისა და და დუშეთის შშმ პირთა პანსეონატი -
+            მოწვეული განვითარების სპეციალისტი (2019 წლიდან-2020 წლამდე)
           </li>
         </ul>
+      </div>
       </div>
     </div>
 
     <!-- Footer  -->
 
-    <footer>
+    <footer class="footer">
       <div class="footer-block">
         <div class="ftr-left-block">
-          <img
-            class="logo-footer"
-            src="images/279563310_540949714217207_4094088807898975909_n-removebg-preview.png"
-            alt="logo"
-          />
-        </div>
-        <div class="ftr-middle-block">
-          <h4 class="ftr-title">გამოგვყევით:</h4>
-          <div class="icons">
-            <div class="ftr-icon-block">
-              <a
-                href="https://www.facebook.com/%E1%83%91%E1%83%90%E1%83%95%E1%83%A8%E1%83%95%E1%83%97%E1%83%90-%E1%83%9E%E1%83%98%E1%83%A0%E1%83%9D%E1%83%95%E1%83%9C%E1%83%A3%E1%83%9A%E1%83%98-%E1%83%92%E1%83%90%E1%83%9C%E1%83%95%E1%83%98%E1%83%97%E1%83%90%E1%83%A0%E1%83%94%E1%83%91%E1%83%98%E1%83%A1-%E1%83%AA%E1%83%94%E1%83%9C%E1%83%A2%E1%83%A0%E1%83%98-Carpe-diem%E1%83%99%E1%83%90%E1%83%A0%E1%83%9E%E1%83%94-%E1%83%93%E1%83%98%E1%83%94%E1%83%9B-830945730579455"
-                target="_blank"
-              >
-                <i class="fa-brands fa-facebook ftr-icon"></i>
-              </a>
-            </div>
-            <div class="ftr-icon-block">
-              <a href="#" target="_blank">
-                <i class="fa-brands fa-instagram ftr-icon"></i>
-              </a>
-            </div>
-          </div>
+          <img class="logo-footer" src="images/logo.png" alt="logo" />
         </div>
         <div class="ftr-right-block">
-          <h4 class="ftr-title contact-title">საკონტაქტო ინფორმაცია:</h4>
           <div class="contact-info">
+            <h4 class="ftr-title contact-title uppercase">კონტაქტი</h4>
             <div class="contact-icons">
-              <i class="fa-regular fa-envelope"></i>
+              <!-- <i class="fa-regular fa-envelope"></i> -->
               <a class="contact-word" target="_blank" href="Info@carpe-diem.ge">
                 Info@carpe-diem.ge</a
               >
             </div>
             <div class="contact-icons">
-              <i class="fa-solid fa-phone"></i>
+              <!-- <i class="fa-solid fa-phone"></i> -->
               <a href="tel:+995577385697" target="_blank" class="contact-word"
                 >+995 550 05 65 23</a
               >
             </div>
             <div class="contact-icons">
-              <i class="fa-solid fa-location-dot"></i>
+              <!-- <i class="fa-solid fa-location-dot"></i> -->
               <a
                 href="https://goo.gl/maps/dWBHEqVwXFrsVSw4A"
                 target="_blank"
@@ -436,11 +591,12 @@
               </a>
             </div>
           </div>
+          <img class="logo-mob" src="images/black.png" alt="logo" />
         </div>
       </div>
       <div class="bottom-footer">
-        <h2 class="ftr-bottom-text">
-          Copyright & copy by Carpe Diem <span id="year"></span>
+        <h2 class="copyRightText uppercase">
+          &copy; 2025 Carpe Diem. ყველა უფლება დაცულია.
         </h2>
       </div>
     </footer>

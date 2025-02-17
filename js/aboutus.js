@@ -3,7 +3,6 @@
 let overlay = document.querySelector(".overlay");
 let uskaName = document.querySelector(".Uska");
 let uskaWindow = document.querySelector(".uska-modal");
-
 let closeBtn = document.querySelectorAll(".fa-circle-xmark");
 
 // for (let i = 0; i < closeBtn.length; i++) {
@@ -19,8 +18,6 @@ let closeovelay = function () {
   overlay.style.display = "none";
   uskaWindow.style.display = "none";
   ninoWindow.style.display = "none";
-  // salomeWindow.style.display = "none";
-  // lanaWindow.style.display = "none";
 };
 
 // Uska Bio - modal window
@@ -44,22 +41,6 @@ ninoName.onclick = function () {
   overlay.style.display = "block";
 };
 
-//   Salome Bio-modal window
-// let salomeName = document.querySelector(".Salome");
-// let salomeWindow = document.querySelector(".salome-modal");
-
-// salomeName.onclick = function () {
-//   salomeWindow.style.display = "block";
-//   overlay.style.display = "block";
-// };
-
-// Lana modal-window
-// let lanaName = document.querySelector(".Lana");
-// let lanaWindow = document.querySelector(".lana-modal");
-// lanaName.onclick = function () {
-//   lanaWindow.style.display = "block";
-//   overlay.style.display = "block";
-// };
 
 // burger bar
 let hamburger = document.querySelector(".humburger");
@@ -72,7 +53,7 @@ hamburger.addEventListener("click", () => {
 
 document.querySelectorAll(".nav-a").forEach((n) =>
   n.addEventListener("click", () => {
-    hamburger.classList.remove("activemenu");
+    aburger.classList.remove("activemenu");
     menubar.classList.remove("activemenu");
   })
 );
