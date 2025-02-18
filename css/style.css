@@ -761,7 +761,7 @@ header {
 .subName {
   font-size: 16px;
   color: #5e5850;
-  line-height:25px;
+  line-height: 25px;
   font-weight: normal;
 }
 
@@ -990,6 +990,9 @@ header {
   -o-transition: 0.5s;
   transition: 0.5s;
 }
+.service-img1 {
+  width: 100%;
+}
 .service-img:hover {
   opacity: 80%;
 }
@@ -1141,10 +1144,11 @@ header {
 .service1-ul1 {
   margin-bottom: 10px;
   font-size: 14px;
+  line-height: 21px;
 }
 
 .fa-circle-check {
-  margin-right: 15px;
+  margin-right: 10px;
   color: #073914;
   margin-left: 30px;
   font-size: smaller;
