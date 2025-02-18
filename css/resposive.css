@@ -148,10 +148,6 @@
     max-width: 500px;
     width: 100%;
   }
-  /* .main-text-box {
-    max-width: 300px;
-    width: 100%;
-  } */
   .real-title {
     font-style: normal;
   }
@@ -160,7 +156,7 @@
     width: 100%;
     width: 100%;
     padding: 0 10px;
-    font-size: 16px;
+    font-size: 16px !important;
   }
 
   .main-title {
@@ -180,6 +176,7 @@
   }
   .main-text {
     font-size: 16px !important;
+    font-family: "NotoSansGeorgian";
   }
 }
 
@@ -632,12 +629,11 @@
   }
   .teamPhotos {
     width: 100%;
- 
   }
-  .aboutUsSectionTitle{
+  .aboutUsSectionTitle {
     font-size: 18px;
   }
- .person-li{
-  font-size: 14px;
- }
+  .person-li {
+    font-size: 14px;
+  }
 }
