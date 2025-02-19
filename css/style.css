@@ -436,7 +436,7 @@ header {
   margin-bottom: 30px;
   /* font-size: 18px; */
   font-size: 14px;
-  color: #1f232b;
+  color: #5e5850;
   letter-spacing: 0.5px;
   line-height: 20px;
   /* font-style: italic; */
@@ -636,7 +636,7 @@ header {
   text-transform: uppercase;
   font-weight: 500px;
   font-size: 32px;
-  margin-bottom: 24px;
+  margin-bottom: 32px;
   margin-top: 24px;
   text-align: center;
 }

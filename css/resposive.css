@@ -636,4 +636,10 @@
   .person-li {
     font-size: 14px;
   }
+  .mainTitle {
+    font-size: 20px;
+    margin-top: 0;
+    line-height: 21px;
+    margin-bottom: 12px;
+  }
 }
